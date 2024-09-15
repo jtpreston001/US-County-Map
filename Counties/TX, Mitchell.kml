@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>MITCHELL, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.906374</longitude>
+  <latitude>32.357224</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/100 -->
+<Placemark>
+<name>MITCHELL, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.660626,32.525312
+     -100.661029,32.470530
+     -100.661546,32.430404
+     -100.661563,32.428995
+     -100.662076,32.388022
+     -100.662208,32.380534
+     -100.663228,32.307874
+     -100.663253,32.305940
+     -100.663890,32.259010
+     -100.664094,32.208144
+     -100.664094,32.130229
+     -100.664125,32.125130
+     -100.664838,32.123872
+     -100.665353,32.085407
+     -100.737260,32.085521
+     -100.750385,32.086255
+     -100.790856,32.086573
+     -100.821594,32.086610
+     -101.018995,32.086731
+     -101.138691,32.087008
+     -101.138984,32.087012
+     -101.183997,32.087208
+     -101.182203,32.166769
+     -101.181377,32.213039
+     -101.178641,32.327516
+     -101.175880,32.434951
+     -101.175853,32.435294
+     -101.175094,32.480343
+     -101.174715,32.493030
+     -101.174607,32.495252
+     -101.174571,32.524112
+     -101.174562,32.527703
+     -101.117712,32.528119
+     -101.000395,32.527860
+     -100.969293,32.527319
+     -100.927051,32.526755
+     -100.922325,32.526692
+     -100.817950,32.525680
+     -100.800740,32.525554
+     -100.783482,32.525428
+     -100.660626,32.525312
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>MITCHELL, TX</name>
+   <description>Latitude:   32.357224
+Longitude: -100.906374</description>
+   <Point>
+      <coordinates>-100.906374, 32.357224, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

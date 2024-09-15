@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>KIMBLE, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-99.751741</longitude>
+  <latitude>30.492252</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/180 -->
+<Placemark>
+<name>KIMBLE, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -99.758015,30.710818
+     -99.669010,30.710612
+     -99.625342,30.710544
+     -99.617912,30.711019
+     -99.518945,30.710780
+     -99.514130,30.710769
+     -99.483869,30.710771
+     -99.483998,30.643971
+     -99.484401,30.550104
+     -99.484416,30.549191
+     -99.484539,30.519829
+     -99.484528,30.516058
+     -99.484495,30.504925
+     -99.484493,30.499641
+     -99.421715,30.499405
+     -99.421510,30.499365
+     -99.405252,30.499517
+     -99.405204,30.499483
+     -99.308119,30.499793
+     -99.303996,30.499832
+     -99.303921,30.489438
+     -99.303848,30.482555
+     -99.303360,30.435246
+     -99.303238,30.424001
+     -99.303232,30.423448
+     -99.302066,30.300567
+     -99.301984,30.286672
+     -99.406294,30.288021
+     -99.420227,30.287848
+     -99.422332,30.287822
+     -99.439124,30.287978
+     -99.460214,30.288283
+     -99.495962,30.288560
+     -99.595241,30.289326
+     -99.603294,30.289429
+     -99.671506,30.289856
+     -99.711678,30.290451
+     -99.748216,30.290943
+     -99.754173,30.290641
+     -99.911048,30.290407
+     -99.958421,30.289994
+     -100.116461,30.290296
+     -100.116708,30.344814
+     -100.116694,30.372882
+     -100.116652,30.433484
+     -100.116651,30.434299
+     -100.116643,30.467901
+     -100.116516,30.478791
+     -100.116465,30.479426
+     -100.116559,30.483636
+     -100.116302,30.573139
+     -100.116234,30.710366
+     -100.098861,30.710373
+     -100.086567,30.710377
+     -100.006747,30.710465
+     -99.771397,30.710793
+     -99.759082,30.710816
+     -99.758015,30.710818
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>KIMBLE, TX</name>
+   <description>Latitude:   30.492252
+Longitude: -99.751741</description>
+   <Point>
+      <coordinates>-99.751741, 30.492252, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

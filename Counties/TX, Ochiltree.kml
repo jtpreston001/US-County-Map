@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>OCHILTREE, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.820762</longitude>
+  <latitude>36.357871</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/4 -->
+<Placemark>
+<name>OCHILTREE, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.850840,36.499700
+     -100.824236,36.499618
+     -100.824218,36.499618
+     -100.806190,36.499674
+     -100.806172,36.499634
+     -100.802909,36.499621
+     -100.802886,36.499621
+     -100.761811,36.499618
+     -100.761811,36.499580
+     -100.724362,36.499580
+     -100.724361,36.499558
+     -100.708626,36.499553
+     -100.708628,36.499521
+     -100.657763,36.499483
+     -100.657763,36.499500
+     -100.648343,36.499495
+     -100.648344,36.499463
+     -100.592614,36.499469
+     -100.592556,36.499469
+     -100.592551,36.499429
+     -100.583539,36.499483
+     -100.583379,36.499443
+     -100.578114,36.499463
+     -100.578114,36.499439
+     -100.546145,36.499343
+     -100.546108,36.463416
+     -100.546084,36.448906
+     -100.546067,36.432327
+     -100.546034,36.348235
+     -100.546068,36.289257
+     -100.546207,36.274567
+     -100.546037,36.215326
+     -100.546724,36.056536
+     -100.848413,36.057408
+     -100.946571,36.057712
+     -100.946976,36.057713
+     -101.058637,36.057990
+     -101.085716,36.057572
+     -101.085610,36.263400
+     -101.085587,36.271894
+     -101.085419,36.335501
+     -101.085394,36.344314
+     -101.085311,36.373406
+     -101.084793,36.375030
+     -101.084997,36.429692
+     -101.084998,36.431557
+     -101.085124,36.488569
+     -101.085156,36.499244
+     -101.052418,36.499563
+     -101.045331,36.499540
+     -100.977088,36.499595
+     -100.936058,36.499602
+     -100.918513,36.499621
+     -100.884174,36.499682
+     -100.884080,36.499682
+     -100.859657,36.499687
+     -100.850840,36.499700
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>OCHILTREE, TX</name>
+   <description>Latitude:   36.357871
+Longitude: -100.820762</description>
+   <Point>
+      <coordinates>-100.820762, 36.357871, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

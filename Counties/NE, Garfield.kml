@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>GARFIELD, NE</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-98.962942</longitude>
+  <latitude>41.906500</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 31/25 -->
+<Placemark>
+<name>GARFIELD, NE</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -98.761332,42.088430
+     -98.761068,42.073057
+     -98.761162,42.071066
+     -98.761058,42.043586
+     -98.760966,42.000426
+     -98.761046,41.986057
+     -98.760820,41.937709
+     -98.760622,41.913801
+     -98.760423,41.840719
+     -98.759840,41.754542
+     -98.759794,41.751520
+     -98.759062,41.749223
+     -98.759133,41.740382
+     -98.805366,41.740442
+     -98.841606,41.740485
+     -98.845561,41.740523
+     -98.847194,41.740511
+     -98.923975,41.740438
+     -98.932588,41.740426
+     -99.048309,41.740482
+     -99.059329,41.740328
+     -99.062658,41.740396
+     -99.072988,41.740527
+     -99.073384,41.740528
+     -99.097359,41.740437
+     -99.111380,41.740409
+     -99.212016,41.740613
+     -99.221830,41.740792
+     -99.221726,41.762703
+     -99.221724,41.770496
+     -99.221724,41.770623
+     -99.221724,41.771562
+     -99.221888,41.796719
+     -99.221973,41.805715
+     -99.222157,41.839474
+     -99.222157,41.840489
+     -99.222031,41.855962
+     -99.222033,41.856906
+     -99.222286,41.882706
+     -99.222315,41.885268
+     -99.222431,41.913831
+     -99.222433,41.914144
+     -99.222435,41.914583
+     -99.222529,41.928067
+     -99.222707,41.946726
+     -99.222393,41.956893
+     -99.222393,41.957259
+     -99.222519,41.963710
+     -99.222643,41.987018
+     -99.222591,42.001458
+     -99.222611,42.017836
+     -99.222709,42.029915
+     -99.222727,42.087914
+     -99.117512,42.088199
+     -99.105938,42.088157
+     -99.098322,42.088183
+     -99.001915,42.088292
+     -98.991451,42.088202
+     -98.885925,42.088324
+     -98.855657,42.088346
+     -98.843563,42.088304
+     -98.827979,42.088418
+     -98.787714,42.088530
+     -98.761332,42.088430
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>GARFIELD, NE</name>
+   <description>Latitude:   41.906500
+Longitude: -98.962942</description>
+   <Point>
+      <coordinates>-98.962942, 41.906500, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

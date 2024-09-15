@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>THROCKMORTON, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-99.193953</longitude>
+  <latitude>33.179658</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/62 -->
+<Placemark>
+<name>THROCKMORTON, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -99.472444,33.399024
+     -99.373236,33.398790
+     -99.263964,33.398564
+     -99.212391,33.398418
+     -99.128285,33.398224
+     -99.115622,33.398134
+     -99.054587,33.397926
+     -99.013723,33.397770
+     -99.009423,33.397754
+     -99.007090,33.397761
+     -99.006610,33.397762
+     -98.953938,33.397534
+     -98.953957,33.381469
+     -98.953675,33.306441
+     -98.953650,33.302743
+     -98.953615,33.297488
+     -98.953504,33.286248
+     -98.953385,33.267455
+     -98.953158,33.234561
+     -98.952707,33.183125
+     -98.952583,33.163679
+     -98.951738,33.065613
+     -98.951651,33.055391
+     -98.950875,32.956918
+     -98.970435,32.956825
+     -98.971787,32.956819
+     -98.985924,32.956749
+     -99.021707,32.956841
+     -99.096016,32.957037
+     -99.120080,32.957101
+     -99.125352,32.956414
+     -99.138199,32.956488
+     -99.151835,32.956567
+     -99.175401,32.956703
+     -99.183505,32.956750
+     -99.190761,32.956791
+     -99.202773,32.956861
+     -99.210437,32.956907
+     -99.222667,32.956936
+     -99.222912,32.956982
+     -99.229216,32.957003
+     -99.229543,32.957003
+     -99.234815,32.957046
+     -99.235577,32.957047
+     -99.321689,32.957078
+     -99.322505,32.957124
+     -99.471258,32.957025
+     -99.471505,33.052145
+     -99.471513,33.052720
+     -99.471900,33.163401
+     -99.471958,33.183712
+     -99.472265,33.321507
+     -99.472277,33.331999
+     -99.472444,33.399024
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>THROCKMORTON, TX</name>
+   <description>Latitude:   33.179658
+Longitude: -99.193953</description>
+   <Point>
+      <coordinates>-99.193953, 33.179658, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

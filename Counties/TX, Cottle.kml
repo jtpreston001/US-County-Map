@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>COTTLE, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.304402</longitude>
+  <latitude>34.026439</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/30 -->
+<Placemark>
+<name>COTTLE, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.517340,34.314102
+     -100.503373,34.314079
+     -100.498193,34.313527
+     -100.417783,34.313524
+     -100.399640,34.313528
+     -100.399640,34.313430
+     -100.359546,34.312561
+     -100.351016,34.312532
+     -100.308749,34.312464
+     -100.292850,34.312388
+     -100.288720,34.312368
+     -100.265301,34.312257
+     -100.226958,34.312203
+     -100.210600,34.312213
+     -100.132189,34.312134
+     -100.123231,34.312254
+     -100.024285,34.312002
+     -99.997720,34.311829
+     -99.997621,34.224355
+     -99.999151,34.224290
+     -100.002855,34.224177
+     -100.006052,34.225668
+     -100.007345,34.230982
+     -100.007011,34.236113
+     -100.006514,34.236937
+     -100.007643,34.240145
+     -100.009793,34.241955
+     -100.011558,34.241956
+     -100.018481,34.240424
+     -100.022729,34.238982
+     -100.037319,34.238778
+     -100.041154,34.232206
+     -100.041209,34.231153
+     -100.042809,34.227969
+     -100.043857,34.227786
+     -100.047028,34.229780
+     -100.047003,34.215188
+     -100.047003,34.214616
+     -100.047635,34.087402
+     -100.047962,34.006272
+     -100.048480,33.835974
+     -100.215892,33.835939
+     -100.223705,33.835949
+     -100.326449,33.835914
+     -100.330906,33.835928
+     -100.331636,33.835929
+     -100.392569,33.835937
+     -100.518691,33.835650
+     -100.518224,33.956366
+     -100.518088,34.003808
+     -100.517964,34.059148
+     -100.518164,34.060695
+     -100.518361,34.167897
+     -100.517340,34.314102
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>COTTLE, TX</name>
+   <description>Latitude:   34.026439
+Longitude: -100.304402</description>
+   <Point>
+      <coordinates>-100.304402, 34.026439, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

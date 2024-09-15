@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>JEFF DAVIS, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-104.139926</longitude>
+  <latitude>30.673167</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/165 -->
+<Placemark>
+<name>JEFF DAVIS, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -104.102354,31.105163
+     -104.069131,31.083343
+     -104.068028,31.082619
+     -103.935580,30.995625
+     -103.868942,30.952839
+     -103.765178,30.885272
+     -103.750458,30.875149
+     -103.695034,30.838970
+     -103.692255,30.837157
+     -103.661016,30.816767
+     -103.585084,30.766470
+     -103.545070,30.739103
+     -103.439976,30.665939
+     -103.658647,30.512606
+     -103.658762,30.512528
+     -103.659312,30.512138
+     -103.676265,30.500159
+     -103.800680,30.412527
+     -103.871883,30.412640
+     -103.901091,30.412202
+     -103.916546,30.415245
+     -103.986278,30.428989
+     -103.995772,30.430861
+     -104.000459,30.432245
+     -104.101651,30.452626
+     -104.110765,30.454462
+     -104.733670,30.580189
+     -104.938942,30.621292
+     -104.976821,30.628810
+     -104.981438,30.629225
+     -104.917163,30.663626
+     -104.625482,30.822798
+     -104.493925,30.895215
+     -104.300390,31.000135
+     -104.293588,31.004227
+     -104.211692,31.046179
+     -104.103691,31.104443
+     -104.102354,31.105163
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>JEFF DAVIS, TX</name>
+   <description>Latitude:   30.673167
+Longitude: -104.139926</description>
+   <Point>
+      <coordinates>-104.139926, 30.673167, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

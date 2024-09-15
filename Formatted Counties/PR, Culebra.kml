@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>PR, Culebra</name>
+<open>1</open>
+
+<Placemark>
+<name>CULEBRA, PR</name>
+
+<Polygon><outerBoundaryIs><LinearRing>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+     -65.259412,18.322156
+     -65.253174,18.318524
+     -65.245095,18.309668
+     -65.244424,18.303493
+     -65.249857,18.296691
+     -65.260282,18.290823
+     -65.263937,18.290685
+     -65.276037,18.296067
+     -65.277099,18.298978
+     -65.276007,18.302613
+     -65.280502,18.306202
+     -65.286622,18.307392
+     -65.296422,18.309299
+     -65.302536,18.310488
+     -65.302508,18.310112
+     -65.302216,18.306142
+     -65.302160,18.305379
+     -65.302426,18.303145
+     -65.302829,18.303013
+     -65.303382,18.302832
+     -65.307027,18.301636
+     -65.311869,18.305794
+     -65.316371,18.309660
+     -65.316885,18.314047
+     -65.322785,18.321157
+     -65.327318,18.323666
+     -65.342068,18.345290
+     -65.335701,18.349535
+     -65.329334,18.341955
+     -65.321754,18.338316
+     -65.309833,18.337973
+     -65.304409,18.332054
+     -65.298328,18.330529
+     -65.285205,18.329617
+     -65.281657,18.329370
+     -65.277319,18.332582
+     -65.259412,18.322156
+    </coordinates>
+</LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+
+<Placemark>
+<name>CULEBRA, PR</name>
+
+<Polygon><outerBoundaryIs><LinearRing>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+     -65.266169,18.341751
+     -65.255933,18.342117
+     -65.245756,18.334707
+     -65.247210,18.333345
+     -65.259612,18.334147
+     -65.265558,18.339392
+     -65.266169,18.341751
+    </coordinates>
+</LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+
+<Placemark>
+<name>CULEBRA, PR</name>
+
+<Polygon><outerBoundaryIs><LinearRing>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+     -65.228485,18.323013
+     -65.221568,18.320959
+     -65.221110,18.311984
+     -65.222853,18.310464
+     -65.230025,18.311274
+     -65.231933,18.320339
+     -65.228485,18.323013
+    </coordinates>
+</LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+
+<Placemark>
+<name>CULEBRA, PR</name>
+
+<Polygon><outerBoundaryIs><LinearRing>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+     -65.327700,18.295843
+     -65.331398,18.296110
+     -65.337451,18.308308
+     -65.330188,18.315998
+     -65.327821,18.308970
+     -65.327700,18.295843
+    </coordinates>
+</LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+
+<Placemark>
+<name>CULEBRA, PR</name>
+
+<Polygon><outerBoundaryIs><LinearRing>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+     -65.280764,18.288274
+     -65.283269,18.280214
+     -65.287257,18.277744
+     -65.300238,18.294404
+     -65.301690,18.300126
+     -65.299701,18.302181
+     -65.296515,18.302299
+     -65.288941,18.299977
+     -65.280764,18.288274
+    </coordinates>
+</LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+
+</Document>
+</kml>

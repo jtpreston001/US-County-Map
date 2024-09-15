@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>THOMAS, NE</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.585757</longitude>
+  <latitude>41.934728</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 31/26 -->
+<Placemark>
+<name>THOMAS, NE</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.846129,42.088166
+     -100.812070,42.088099
+     -100.691166,42.087491
+     -100.635902,42.087091
+     -100.610959,42.086775
+     -100.609517,42.086777
+     -100.580357,42.086849
+     -100.541392,42.086850
+     -100.368675,42.086610
+     -100.365573,42.086749
+     -100.362042,42.086682
+     -100.359125,42.086661
+     -100.354949,42.086662
+     -100.352800,42.086777
+     -100.314754,42.086373
+     -100.290066,42.086234
+     -100.285330,42.086215
+     -100.267622,42.086147
+     -100.268027,42.072184
+     -100.267879,42.064819
+     -100.267879,42.064724
+     -100.267771,42.044278
+     -100.267512,42.019391
+     -100.267662,42.000000
+     -100.266819,41.932466
+     -100.266781,41.927874
+     -100.266257,41.903537
+     -100.266219,41.903013
+     -100.266189,41.901823
+     -100.266129,41.901160
+     -100.266438,41.899766
+     -100.266538,41.899248
+     -100.266041,41.874999
+     -100.266497,41.865697
+     -100.266521,41.840342
+     -100.266247,41.801313
+     -100.266562,41.790837
+     -100.265510,41.746721
+     -100.265482,41.739821
+     -100.270710,41.739824
+     -100.275261,41.739894
+     -100.282713,41.739827
+     -100.306841,41.739875
+     -100.313468,41.739715
+     -100.457933,41.739508
+     -100.490754,41.739446
+     -100.500421,41.739901
+     -100.599143,41.739773
+     -100.602305,41.740122
+     -100.669378,41.739731
+     -100.711711,41.739761
+     -100.842459,41.740404
+     -100.843649,41.783205
+     -100.843662,41.783205
+     -100.843777,41.850605
+     -100.843719,41.850640
+     -100.843756,41.874996
+     -100.843507,41.912474
+     -100.844422,41.962991
+     -100.845632,41.976427
+     -100.846046,41.999997
+     -100.846129,42.088166
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>THOMAS, NE</name>
+   <description>Latitude:   41.934728
+Longitude: -100.585757</description>
+   <Point>
+      <coordinates>-100.585757, 41.934728, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

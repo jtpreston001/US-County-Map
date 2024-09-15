@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>BENTON, IN</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-87.305569</longitude>
+  <latitude>40.605203</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 18/27 -->
+<Placemark>
+<name>BENTON, IN</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -87.363119,40.736535
+     -87.362848,40.736558
+     -87.324524,40.736592
+     -87.305693,40.736547
+     -87.296067,40.736477
+     -87.267338,40.736516
+     -87.211223,40.736522
+     -87.172869,40.736638
+     -87.153586,40.736680
+     -87.098585,40.736542
+     -87.096990,40.736374
+     -87.097283,40.721599
+     -87.096945,40.707435
+     -87.097275,40.649472
+     -87.096291,40.606438
+     -87.095248,40.562891
+     -87.094230,40.506872
+     -87.093745,40.494366
+     -87.093623,40.490431
+     -87.093562,40.488691
+     -87.093561,40.487694
+     -87.093561,40.487141
+     -87.093640,40.479723
+     -87.093676,40.475745
+     -87.097751,40.475785
+     -87.178254,40.475676
+     -87.206780,40.475629
+     -87.254532,40.476074
+     -87.264123,40.476252
+     -87.302356,40.476409
+     -87.321175,40.476431
+     -87.368730,40.476738
+     -87.377527,40.476897
+     -87.397094,40.476928
+     -87.434970,40.476843
+     -87.449297,40.476928
+     -87.454059,40.476956
+     -87.518082,40.477201
+     -87.524590,40.477167
+     -87.526502,40.477158
+     -87.526376,40.491574
+     -87.526352,40.535111
+     -87.526292,40.535409
+     -87.526269,40.564058
+     -87.526254,40.582158
+     -87.526233,40.607993
+     -87.526217,40.627582
+     -87.526199,40.649841
+     -87.526129,40.736950
+     -87.449843,40.736752
+     -87.439420,40.736728
+     -87.381904,40.736464
+     -87.363119,40.736535
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>BENTON, IN</name>
+   <description>Latitude:   40.605203
+Longitude: -87.305569</description>
+   <Point>
+      <coordinates>-87.305569, 40.605203, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

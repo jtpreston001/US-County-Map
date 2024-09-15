@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>SWAINS ISLAND, AS</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-171.045405</longitude>
+  <latitude>-11.084387</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 60/1 -->
+<Placemark>
+<name>SWAINS ISLAND, AS</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -171.047130,-11.091901
+     -171.050384,-11.089550
+     -171.052782,-11.086590
+     -171.053716,-11.083195
+     -171.053288,-11.081168
+     -171.050886,-11.079906
+     -171.045864,-11.078824
+     -171.042341,-11.078524
+     -171.040802,-11.079043
+     -171.038145,-11.082021
+     -171.037383,-11.084517
+     -171.039864,-11.087728
+     -171.042785,-11.090102
+     -171.044961,-11.091471
+     -171.047130,-11.091901
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>SWAINS ISLAND, AS</name>
+   <description>Latitude:   -11.084387
+Longitude: -171.045405</description>
+   <Point>
+      <coordinates>-171.045405, -11.084387, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

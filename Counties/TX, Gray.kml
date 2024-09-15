@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>GRAY, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.793623</longitude>
+  <latitude>35.436320</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/13 -->
+<Placemark>
+<name>GRAY, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.085935,35.619102
+     -100.954520,35.619260
+     -100.875423,35.619152
+     -100.866022,35.619737
+     -100.810746,35.620184
+     -100.786565,35.620485
+     -100.741672,35.619786
+     -100.675637,35.619984
+     -100.540214,35.619296
+     -100.540008,35.601760
+     -100.540215,35.552325
+     -100.539465,35.531535
+     -100.539451,35.488279
+     -100.539399,35.472938
+     -100.538782,35.391337
+     -100.538745,35.390909
+     -100.538785,35.390079
+     -100.538802,35.388332
+     -100.538782,35.374368
+     -100.538333,35.290902
+     -100.538978,35.183144
+     -100.571220,35.182985
+     -100.577580,35.183145
+     -100.659359,35.183074
+     -100.723801,35.183180
+     -100.821214,35.183241
+     -100.907973,35.183189
+     -100.909116,35.183212
+     -100.970162,35.183256
+     -100.971444,35.183256
+     -100.972393,35.183255
+     -100.974512,35.183186
+     -101.086281,35.182140
+     -101.086175,35.328149
+     -101.085951,35.415279
+     -101.086037,35.476584
+     -101.086192,35.500045
+     -101.086192,35.500440
+     -101.085988,35.532029
+     -101.085935,35.619102
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>GRAY, TX</name>
+   <description>Latitude:   35.436320
+Longitude: -100.793623</description>
+   <Point>
+      <coordinates>-100.793623, 35.436320, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

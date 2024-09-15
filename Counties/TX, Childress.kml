@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>CHILDRESS, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.255622</longitude>
+  <latitude>34.556609</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/26 -->
+<Placemark>
+<name>CHILDRESS, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.223601,34.747158
+     -100.188166,34.747162
+     -100.120378,34.747021
+     -100.120212,34.747016
+     -100.117604,34.746879
+     -100.010945,34.746487
+     -100.000381,34.746461
+     -100.000381,34.570854
+     -100.000381,34.570647
+     -100.000381,34.560509
+     -99.998255,34.560446
+     -99.997501,34.560424
+     -99.997823,34.455735
+     -99.997823,34.455551
+     -99.997835,34.445252
+     -99.997836,34.444354
+     -99.997847,34.434484
+     -99.997870,34.414142
+     -99.997869,34.406860
+     -99.997871,34.405572
+     -99.997828,34.401927
+     -99.997828,34.401243
+     -99.997687,34.366716
+     -99.997720,34.311829
+     -100.024285,34.312002
+     -100.123231,34.312254
+     -100.132189,34.312134
+     -100.210600,34.312213
+     -100.226958,34.312203
+     -100.265301,34.312257
+     -100.288720,34.312368
+     -100.292850,34.312388
+     -100.308749,34.312464
+     -100.351016,34.312532
+     -100.359546,34.312561
+     -100.399640,34.313430
+     -100.399640,34.313528
+     -100.417783,34.313524
+     -100.417731,34.362239
+     -100.415950,34.515624
+     -100.415950,34.517006
+     -100.415881,34.528679
+     -100.415796,34.561263
+     -100.415798,34.561720
+     -100.415912,34.590453
+     -100.415895,34.747525
+     -100.375398,34.747128
+     -100.223601,34.747158
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>CHILDRESS, TX</name>
+   <description>Latitude:   34.556609
+Longitude: -100.255622</description>
+   <Point>
+      <coordinates>-100.255622, 34.556609, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

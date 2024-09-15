@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>DEUEL, NE</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-102.313405</longitude>
+  <latitude>41.125606</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 31/57 -->
+<Placemark>
+<name>DEUEL, NE</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.122309,41.221443
+     -102.112860,41.221449
+     -102.074494,41.221594
+     -102.055535,41.221547
+     -102.055637,41.178292
+     -102.055735,41.090904
+     -102.055558,41.067561
+     -102.055589,41.067240
+     -102.055469,41.059948
+     -102.055449,41.053245
+     -102.055531,41.047464
+     -102.051666,41.047418
+     -102.051614,41.003886
+     -102.051614,41.002377
+     -102.070598,41.002423
+     -102.124972,41.002338
+     -102.191210,41.002326
+     -102.209361,41.002442
+     -102.212200,41.002462
+     -102.231931,41.002327
+     -102.259692,41.002370
+     -102.267812,41.002383
+     -102.272100,41.002245
+     -102.291354,41.002207
+     -102.292553,41.002207
+     -102.292622,41.002230
+     -102.292833,41.002207
+     -102.364066,41.002174
+     -102.379593,41.002301
+     -102.380373,41.002302
+     -102.469223,41.002424
+     -102.470537,41.002382
+     -102.487955,41.002445
+     -102.556789,41.002219
+     -102.566048,41.002200
+     -102.575496,41.002200
+     -102.575738,41.002268
+     -102.578696,41.002291
+     -102.621033,41.002597
+     -102.620872,41.048001
+     -102.610184,41.048208
+     -102.610334,41.091220
+     -102.610439,41.113678
+     -102.610308,41.134804
+     -102.610460,41.141019
+     -102.611026,41.164076
+     -102.610369,41.221705
+     -102.443562,41.221885
+     -102.399714,41.221910
+     -102.246284,41.221491
+     -102.227267,41.221522
+     -102.122309,41.221443
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>DEUEL, NE</name>
+   <description>Latitude:   41.125606
+Longitude: -102.313405</description>
+   <Point>
+      <coordinates>-102.313405, 41.125606, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

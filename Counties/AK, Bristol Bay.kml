@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>BRISTOL BAY, AK</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-156.661358</longitude>
+  <latitude>58.691778</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 02/34 -->
+<Placemark>
+<name>BRISTOL BAY, AK</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -156.985785,58.888677
+     -156.973634,58.888678
+     -156.909961,58.887340
+     -156.406918,58.893134
+     -156.318138,58.894948
+     -156.317219,58.818527
+     -156.318680,58.766283
+     -156.318303,58.729528
+     -156.317671,58.609610
+     -156.845087,58.609713
+     -157.267434,58.609796
+     -157.251462,58.620786
+     -157.178834,58.660440
+     -157.138305,58.679581
+     -157.126733,58.685046
+     -157.077914,58.708103
+     -157.077213,58.708892
+     -157.072560,58.714131
+     -157.061928,58.726102
+     -157.061822,58.726282
+     -157.008226,58.817139
+     -157.003401,58.836822
+     -157.003607,58.839306
+     -157.010984,58.848400
+     -157.016088,58.863490
+     -157.012392,58.875889
+     -156.985785,58.888677
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>BRISTOL BAY, AK</name>
+   <description>Latitude:   58.691778
+Longitude: -156.661358</description>
+   <Point>
+      <coordinates>-156.661358, 58.691778, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

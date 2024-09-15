@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>DALLAM, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-102.635044</longitude>
+  <latitude>36.214143</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/1 -->
+<Placemark>
+<name>DALLAM, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -103.002434,36.500397
+     -102.904219,36.500393
+     -102.840236,36.500391
+     -102.792077,36.500389
+     -102.643208,36.500384
+     -102.366462,36.500373
+     -102.250453,36.500369
+     -102.244990,36.500704
+     -102.162463,36.500326
+     -102.163174,36.279006
+     -102.163097,36.238730
+     -102.163070,36.236510
+     -102.162927,36.171070
+     -102.162955,36.170246
+     -102.163015,36.055249
+     -102.202965,36.054975
+     -102.211678,36.055204
+     -102.247478,36.055238
+     -102.251038,36.055161
+     -102.292393,36.055430
+     -102.299960,36.055374
+     -102.319315,36.055452
+     -102.397483,36.055353
+     -102.405929,36.055407
+     -102.406481,36.055431
+     -102.477815,36.055291
+     -102.495707,36.055271
+     -102.496308,36.055271
+     -102.506781,36.055133
+     -102.507676,36.055133
+     -102.511313,36.055130
+     -102.511776,36.055130
+     -102.513668,36.055128
+     -102.521730,36.055124
+     -102.526840,36.055123
+     -102.531375,36.055123
+     -102.539492,36.055120
+     -102.540212,36.055120
+     -102.718282,36.055172
+     -102.727568,36.055434
+     -102.731724,36.055288
+     -102.770991,36.055159
+     -102.842629,36.055153
+     -102.910429,36.055199
+     -102.920052,36.055180
+     -103.040824,36.055231
+     -103.041388,36.229130
+     -103.041674,36.317534
+     -103.041745,36.318267
+     -103.041924,36.500439
+     -103.002434,36.500397
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>DALLAM, TX</name>
+   <description>Latitude:   36.214143
+Longitude: -102.635044</description>
+   <Point>
+      <coordinates>-102.635044, 36.214143, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

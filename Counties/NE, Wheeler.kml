@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>WHEELER, NE</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-98.528156</longitude>
+  <latitude>41.925450</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 31/24 -->
+<Placemark>
+<name>WHEELER, NE</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -98.300443,42.088807
+     -98.295437,42.088852
+     -98.295410,42.074373
+     -98.295491,42.001878
+     -98.295770,41.987531
+     -98.295773,41.975086
+     -98.295682,41.973371
+     -98.295559,41.972982
+     -98.295602,41.914954
+     -98.295904,41.828086
+     -98.295972,41.799303
+     -98.295853,41.784799
+     -98.295760,41.741264
+     -98.332304,41.741105
+     -98.345469,41.741148
+     -98.366208,41.741049
+     -98.400248,41.740963
+     -98.435009,41.740741
+     -98.464127,41.740698
+     -98.504463,41.740582
+     -98.507717,41.740569
+     -98.515420,41.740623
+     -98.521384,41.740601
+     -98.527354,41.740578
+     -98.600516,41.740392
+     -98.733248,41.740365
+     -98.749286,41.740564
+     -98.752225,41.740372
+     -98.759133,41.740382
+     -98.759062,41.749223
+     -98.759794,41.751520
+     -98.759840,41.754542
+     -98.760423,41.840719
+     -98.760622,41.913801
+     -98.760820,41.937709
+     -98.761046,41.986057
+     -98.760966,42.000426
+     -98.761058,42.043586
+     -98.761162,42.071066
+     -98.761068,42.073057
+     -98.761332,42.088430
+     -98.649995,42.088572
+     -98.573424,42.088671
+     -98.553890,42.088671
+     -98.476087,42.088655
+     -98.300443,42.088807
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>WHEELER, NE</name>
+   <description>Latitude:   41.925450
+Longitude: -98.528156</description>
+   <Point>
+      <coordinates>-98.528156, 41.925450, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

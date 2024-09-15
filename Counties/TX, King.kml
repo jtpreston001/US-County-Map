@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>KING, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.150099</longitude>
+  <latitude>33.546783</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/45 -->
+<Placemark>
+<name>KING, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -99.996434,33.835967
+     -99.994916,33.714158
+     -99.994681,33.695602
+     -99.994290,33.663439
+     -99.993071,33.579991
+     -99.992955,33.564081
+     -99.992901,33.563875
+     -99.992600,33.536645
+     -99.992311,33.496524
+     -99.991292,33.414634
+     -99.991289,33.414435
+     -99.991050,33.403120
+     -99.990980,33.397404
+     -100.000375,33.397390
+     -100.000729,33.397266
+     -100.003786,33.397648
+     -100.112948,33.397837
+     -100.125380,33.397385
+     -100.190414,33.397732
+     -100.198201,33.397774
+     -100.250384,33.398036
+     -100.257176,33.397552
+     -100.260943,33.397600
+     -100.295747,33.396997
+     -100.339293,33.397537
+     -100.517449,33.397866
+     -100.518008,33.547292
+     -100.517981,33.547476
+     -100.517959,33.591635
+     -100.518166,33.689954
+     -100.518255,33.720804
+     -100.518305,33.730851
+     -100.518691,33.835650
+     -100.392569,33.835937
+     -100.331636,33.835929
+     -100.330906,33.835928
+     -100.326449,33.835914
+     -100.223705,33.835949
+     -100.215892,33.835939
+     -100.048480,33.835974
+     -99.996434,33.835967
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>KING, TX</name>
+   <description>Latitude:   33.546783
+Longitude: -100.150099</description>
+   <Point>
+      <coordinates>-100.150099, 33.546783, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

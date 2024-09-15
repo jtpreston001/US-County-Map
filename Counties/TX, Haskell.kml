@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>HASKELL, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-99.730758</longitude>
+  <latitude>33.176396</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/61 -->
+<Placemark>
+<name>HASKELL, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -99.516368,33.398831
+     -99.472444,33.399024
+     -99.472277,33.331999
+     -99.472265,33.321507
+     -99.471958,33.183712
+     -99.471900,33.163401
+     -99.471513,33.052720
+     -99.471505,33.052145
+     -99.471258,32.957025
+     -99.476948,32.957030
+     -99.611064,32.956962
+     -99.611948,32.956962
+     -99.612001,32.956962
+     -99.680191,32.957514
+     -99.740829,32.957967
+     -99.776052,32.958226
+     -99.785478,32.958297
+     -99.793968,32.958371
+     -99.794237,32.958374
+     -99.799590,32.958425
+     -99.802890,32.958457
+     -99.805358,32.958480
+     -99.811633,32.958520
+     -99.858326,32.958956
+     -99.951118,32.959867
+     -99.988827,32.960121
+     -99.989532,33.083418
+     -99.989571,33.090907
+     -99.989313,33.130857
+     -99.989323,33.154765
+     -99.989321,33.168688
+     -99.989335,33.174877
+     -99.989339,33.177101
+     -99.989340,33.177449
+     -99.989389,33.178600
+     -99.989417,33.178921
+     -99.989379,33.206320
+     -99.989464,33.212574
+     -99.989398,33.223085
+     -99.989378,33.232289
+     -99.989484,33.253737
+     -99.989685,33.265724
+     -99.989828,33.274308
+     -99.990145,33.293260
+     -99.990168,33.294637
+     -99.990489,33.313790
+     -99.990660,33.323968
+     -99.990850,33.335336
+     -99.991072,33.348496
+     -99.991228,33.357765
+     -99.990710,33.375093
+     -99.990980,33.397404
+     -99.801069,33.398016
+     -99.763067,33.398290
+     -99.733040,33.398379
+     -99.723676,33.398400
+     -99.719867,33.398408
+     -99.641850,33.398587
+     -99.610437,33.398704
+     -99.607618,33.398719
+     -99.553629,33.398768
+     -99.528065,33.398814
+     -99.516368,33.398831
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>HASKELL, TX</name>
+   <description>Latitude:   33.176396
+Longitude: -99.730758</description>
+   <Point>
+      <coordinates>-99.730758, 33.176396, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

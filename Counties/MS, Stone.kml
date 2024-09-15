@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>STONE, MS</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-89.103681</longitude>
+  <latitude>30.802407</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 28/79 -->
+<Placemark>
+<name>STONE, MS</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -88.996355,30.910159
+     -88.980519,30.910248
+     -88.885038,30.910788
+     -88.884818,30.869042
+     -88.884666,30.840229
+     -88.884549,30.827152
+     -88.884525,30.823876
+     -88.884636,30.795107
+     -88.884624,30.782728
+     -88.884625,30.782568
+     -88.884626,30.779942
+     -88.884629,30.770991
+     -88.884534,30.735591
+     -88.884478,30.713770
+     -88.884504,30.713175
+     -88.884533,30.677292
+     -88.985928,30.677157
+     -89.017880,30.677025
+     -89.018224,30.677071
+     -89.070679,30.677013
+     -89.081681,30.677011
+     -89.086125,30.677004
+     -89.086721,30.677003
+     -89.087333,30.677002
+     -89.089626,30.676999
+     -89.134326,30.676956
+     -89.138221,30.676972
+     -89.138346,30.676972
+     -89.139503,30.676976
+     -89.141742,30.676985
+     -89.239863,30.677159
+     -89.240075,30.675101
+     -89.240136,30.647646
+     -89.242146,30.647608
+     -89.262528,30.647345
+     -89.341446,30.647720
+     -89.341429,30.662417
+     -89.341394,30.691135
+     -89.341266,30.785655
+     -89.340896,30.857547
+     -89.340906,30.876914
+     -89.340846,30.909900
+     -89.198684,30.909925
+     -89.176458,30.909913
+     -89.176010,30.909910
+     -89.171860,30.909878
+     -89.171371,30.909874
+     -89.170919,30.909871
+     -89.137967,30.909877
+     -89.125051,30.909905
+     -89.121026,30.909931
+     -89.119538,30.909969
+     -89.118562,30.909964
+     -89.111885,30.909926
+     -89.108671,30.909973
+     -89.106147,30.910020
+     -89.102879,30.910023
+     -89.089812,30.910034
+     -89.086951,30.910044
+     -89.085556,30.910049
+     -89.076071,30.910050
+     -89.055201,30.910041
+     -89.015789,30.910154
+     -89.013154,30.910153
+     -88.996355,30.910159
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>STONE, MS</name>
+   <description>Latitude:   30.802407
+Longitude: -89.103681</description>
+   <Point>
+      <coordinates>-89.103681, 30.802407, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

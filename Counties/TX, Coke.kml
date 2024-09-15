@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>COKE, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.493904</longitude>
+  <latitude>31.898111</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/123 -->
+<Placemark>
+<name>COKE, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.821594,32.086610
+     -100.790856,32.086573
+     -100.750385,32.086255
+     -100.737260,32.085521
+     -100.665353,32.085407
+     -100.625382,32.085388
+     -100.618581,32.084788
+     -100.538727,32.083637
+     -100.428696,32.082468
+     -100.411476,32.082300
+     -100.325082,32.081414
+     -100.316320,32.081384
+     -100.314026,32.081377
+     -100.250373,32.081592
+     -100.240011,32.082036
+     -100.239918,32.082086
+     -100.235137,32.082372
+     -100.235938,31.906548
+     -100.235977,31.851319
+     -100.235992,31.826739
+     -100.235761,31.692970
+     -100.282426,31.692799
+     -100.390196,31.692480
+     -100.441526,31.693072
+     -100.461505,31.693252
+     -100.473388,31.693323
+     -100.533935,31.693478
+     -100.536272,31.693488
+     -100.546906,31.693532
+     -100.563118,31.693625
+     -100.591468,31.693780
+     -100.620681,31.693920
+     -100.716006,31.694750
+     -100.724530,31.694817
+     -100.744845,31.695050
+     -100.748382,31.695097
+     -100.759408,31.695284
+     -100.765059,31.695370
+     -100.825370,31.696155
+     -100.825200,31.718617
+     -100.824660,31.756058
+     -100.824151,31.811443
+     -100.824281,31.819217
+     -100.823738,31.850077
+     -100.823608,31.857499
+     -100.822747,31.937871
+     -100.821672,32.006179
+     -100.821594,32.086610
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>COKE, TX</name>
+   <description>Latitude:   31.898111
+Longitude: -100.493904</description>
+   <Point>
+      <coordinates>-100.493904, 31.898111, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

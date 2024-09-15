@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>DADE, GA</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-85.515505</longitude>
+  <latitude>34.862677</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 13/9 -->
+<Placemark>
+<name>DADE, GA</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -85.363919,34.983375
+     -85.364517,34.979158
+     -85.364611,34.978494
+     -85.366613,34.976311
+     -85.369343,34.973620
+     -85.374598,34.961964
+     -85.378359,34.956492
+     -85.386839,34.944092
+     -85.409314,34.912025
+     -85.418392,34.899805
+     -85.433710,34.875077
+     -85.438554,34.862776
+     -85.448097,34.838172
+     -85.448576,34.836906
+     -85.450486,34.831873
+     -85.450561,34.796994
+     -85.450409,34.759241
+     -85.459354,34.751639
+     -85.459430,34.744214
+     -85.459472,34.741789
+     -85.461957,34.731771
+     -85.465044,34.727890
+     -85.465125,34.727861
+     -85.468282,34.723518
+     -85.490531,34.699109
+     -85.490794,34.670927
+     -85.490795,34.669449
+     -85.534089,34.623858
+     -85.534092,34.623874
+     -85.534327,34.625082
+     -85.541264,34.656701
+     -85.541267,34.656783
+     -85.542501,34.662447
+     -85.552454,34.708138
+     -85.552482,34.708321
+     -85.561416,34.750079
+     -85.574403,34.815997
+     -85.583145,34.860371
+     -85.595163,34.924171
+     -85.595191,34.924331
+     -85.596558,34.932168
+     -85.597171,34.935682
+     -85.598781,34.944915
+     -85.599241,34.950133
+     -85.599385,34.951766
+     -85.605165,34.984678
+     -85.514278,34.983558
+     -85.471191,34.983027
+     -85.466713,34.982972
+     -85.384967,34.982987
+     -85.368981,34.983282
+     -85.365213,34.983351
+     -85.363919,34.983375
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>DADE, GA</name>
+   <description>Latitude:   34.862677
+Longitude: -85.515505</description>
+   <Point>
+      <coordinates>-85.515505, 34.862677, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

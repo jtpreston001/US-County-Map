@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>BLANCO, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-98.396851</longitude>
+  <latitude>30.263278</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/189 -->
+<Placemark>
+<name>BLANCO, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -98.411494,30.502101
+     -98.397334,30.498600
+     -98.377115,30.493117
+     -98.349866,30.485780
+     -98.321764,30.478249
+     -98.320962,30.478034
+     -98.320682,30.477959
+     -98.304743,30.473688
+     -98.302876,30.473166
+     -98.267685,30.463753
+     -98.260286,30.461881
+     -98.260068,30.461855
+     -98.168396,30.437493
+     -98.161338,30.435631
+     -98.125556,30.426186
+     -98.128134,30.422399
+     -98.129174,30.420870
+     -98.133262,30.414862
+     -98.172977,30.356312
+     -98.181912,30.334134
+     -98.182034,30.333850
+     -98.206485,30.271497
+     -98.236760,30.193496
+     -98.252484,30.153410
+     -98.270817,30.106810
+     -98.294249,30.046601
+     -98.297598,30.037993
+     -98.324977,30.014143
+     -98.356277,29.987211
+     -98.406107,29.944373
+     -98.406695,29.943868
+     -98.410457,29.940646
+     -98.414018,29.937557
+     -98.438766,29.966460
+     -98.467667,30.000212
+     -98.494659,30.030811
+     -98.498334,30.034989
+     -98.529651,30.071279
+     -98.532351,30.073812
+     -98.553692,30.099032
+     -98.580649,30.130402
+     -98.587897,30.138954
+     -98.587877,30.185937
+     -98.588000,30.246327
+     -98.588152,30.250201
+     -98.588498,30.260828
+     -98.588658,30.265701
+     -98.588721,30.274669
+     -98.588992,30.312420
+     -98.589229,30.345325
+     -98.589854,30.391939
+     -98.591670,30.499875
+     -98.576148,30.500191
+     -98.468948,30.501627
+     -98.468775,30.501629
+     -98.440785,30.501853
+     -98.411494,30.502101
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>BLANCO, TX</name>
+   <description>Latitude:   30.263278
+Longitude: -98.396851</description>
+   <Point>
+      <coordinates>-98.396851, 30.263278, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

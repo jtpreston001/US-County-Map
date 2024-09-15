@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>WHEELER, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.276483</longitude>
+  <latitude>35.432118</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/15 -->
+<Placemark>
+<name>WHEELER, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.379552,35.619565
+     -100.340079,35.619507
+     -100.290077,35.619555
+     -100.236922,35.619661
+     -100.004814,35.619114
+     -100.000392,35.619115
+     -100.000390,35.519130
+     -100.000387,35.299633
+     -100.000387,35.299591
+     -100.000387,35.298194
+     -100.000385,35.182702
+     -100.094075,35.182504
+     -100.094997,35.182502
+     -100.112062,35.182467
+     -100.113018,35.182465
+     -100.201505,35.182848
+     -100.218882,35.182913
+     -100.237237,35.182907
+     -100.241755,35.182813
+     -100.252286,35.182903
+     -100.272537,35.182866
+     -100.288082,35.182852
+     -100.299537,35.182963
+     -100.300374,35.182894
+     -100.341615,35.182881
+     -100.343441,35.182982
+     -100.361041,35.182907
+     -100.361375,35.182930
+     -100.366174,35.182882
+     -100.444402,35.183032
+     -100.538978,35.183144
+     -100.538333,35.290902
+     -100.538782,35.374368
+     -100.538802,35.388332
+     -100.538785,35.390079
+     -100.538745,35.390909
+     -100.538782,35.391337
+     -100.539399,35.472938
+     -100.539451,35.488279
+     -100.539465,35.531535
+     -100.540215,35.552325
+     -100.540008,35.601760
+     -100.540214,35.619296
+     -100.518832,35.619339
+     -100.507559,35.619426
+     -100.505427,35.619837
+     -100.494863,35.619447
+     -100.473549,35.619655
+     -100.449013,35.619576
+     -100.394104,35.619680
+     -100.379552,35.619565
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>WHEELER, TX</name>
+   <description>Latitude:   35.432118
+Longitude: -100.276483</description>
+   <Point>
+      <coordinates>-100.276483, 35.432118, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

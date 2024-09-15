@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>BAILEY, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-102.782624</longitude>
+  <latitude>34.096773</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/33 -->
+<Placemark>
+<name>BAILEY, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.615150,34.312891
+     -102.615435,34.248598
+     -102.615432,34.241318
+     -102.615429,34.233729
+     -102.615408,34.159834
+     -102.615300,34.102294
+     -102.615344,34.064372
+     -102.615397,33.995520
+     -102.615591,33.941833
+     -102.615595,33.911423
+     -102.615579,33.880986
+     -102.615447,33.825121
+     -102.773257,33.824824
+     -102.796475,33.824755
+     -102.801190,33.824810
+     -102.818757,33.824811
+     -102.828027,33.824804
+     -102.864459,33.824760
+     -102.877016,33.824819
+     -103.000496,33.824763
+     -103.047346,33.824675
+     -103.046907,33.850300
+     -103.045644,33.901537
+     -103.045698,33.906299
+     -103.044893,33.945617
+     -103.043950,33.974629
+     -103.043617,34.003633
+     -103.043531,34.018014
+     -103.043555,34.032714
+     -103.043746,34.037294
+     -103.043771,34.041538
+     -103.043721,34.042320
+     -103.043767,34.043545
+     -103.043744,34.049986
+     -103.043686,34.063078
+     -103.043516,34.079382
+     -103.043569,34.087947
+     -103.043571,34.092847
+     -103.043573,34.096657
+     -103.043580,34.112814
+     -103.043644,34.256903
+     -103.043719,34.289441
+     -103.043936,34.302585
+     -103.043979,34.312764
+     -102.993085,34.312277
+     -102.914359,34.312677
+     -102.905801,34.312721
+     -102.885549,34.312825
+     -102.827173,34.312833
+     -102.809592,34.312831
+     -102.722238,34.312927
+     -102.615150,34.312891
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>BAILEY, TX</name>
+   <description>Latitude:   34.096773
+Longitude: -102.782624</description>
+   <Point>
+      <coordinates>-102.782624, 34.096773, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

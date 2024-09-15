@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>CLIFTON FORGE, VA</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-79.825620</longitude>
+  <latitude>37.822565</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 51/55 -->
+<Placemark>
+<name>CLIFTON FORGE, VA</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -79.824030,37.838132
+     -79.824548,37.833610
+     -79.820512,37.837104
+     -79.819275,37.837277
+     -79.818859,37.834274
+     -79.815264,37.829629
+     -79.816377,37.828360
+     -79.812150,37.825721
+     -79.809882,37.828488
+     -79.808356,37.827820
+     -79.804054,37.817535
+     -79.803012,37.815312
+     -79.807503,37.813049
+     -79.813686,37.811775
+     -79.812478,37.810025
+     -79.813053,37.808970
+     -79.817559,37.808503
+     -79.817517,37.809543
+     -79.818815,37.810463
+     -79.824144,37.811222
+     -79.826956,37.812328
+     -79.836259,37.806944
+     -79.841737,37.806892
+     -79.842534,37.807517
+     -79.842444,37.808540
+     -79.842922,37.809527
+     -79.843211,37.809458
+     -79.843751,37.810694
+     -79.843710,37.810734
+     -79.846076,37.813364
+     -79.845717,37.813712
+     -79.842501,37.814563
+     -79.842218,37.814651
+     -79.842568,37.814988
+     -79.841459,37.815558
+     -79.835040,37.816777
+     -79.835812,37.818355
+     -79.838221,37.820804
+     -79.840437,37.820004
+     -79.841651,37.820437
+     -79.833543,37.824789
+     -79.834780,37.828474
+     -79.835800,37.831424
+     -79.835058,37.847554
+     -79.833700,37.847415
+     -79.829851,37.843866
+     -79.827829,37.842699
+     -79.825543,37.843073
+     -79.824030,37.838132
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>CLIFTON FORGE, VA</name>
+   <description>Latitude:   37.822565
+Longitude: -79.825620</description>
+   <Point>
+      <coordinates>-79.825620, 37.822565, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

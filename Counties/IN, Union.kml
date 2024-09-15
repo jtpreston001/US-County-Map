@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>UNION, IN</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-84.921939</longitude>
+  <latitude>39.631932</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 18/53 -->
+<Placemark>
+<name>UNION, IN</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -85.015677,39.728940
+     -84.969106,39.728975
+     -84.969516,39.726796
+     -84.965397,39.726797
+     -84.927593,39.726649
+     -84.870642,39.726626
+     -84.861073,39.726723
+     -84.851680,39.726726
+     -84.836939,39.726664
+     -84.814129,39.726556
+     -84.814530,39.680429
+     -84.814619,39.669174
+     -84.814323,39.655814
+     -84.814352,39.653778
+     -84.814528,39.641314
+     -84.814561,39.639047
+     -84.814705,39.628854
+     -84.814953,39.595651
+     -84.814962,39.594439
+     -84.815116,39.573751
+     -84.815156,39.568351
+     -84.814955,39.567251
+     -84.814955,39.566251
+     -84.814967,39.565151
+     -84.815155,39.548051
+     -84.815355,39.521951
+     -84.834456,39.522651
+     -84.910135,39.524036
+     -84.929062,39.524259
+     -84.938229,39.524223
+     -84.947256,39.524230
+     -85.022936,39.524396
+     -85.022569,39.526115
+     -85.036087,39.526213
+     -85.036254,39.537098
+     -85.036312,39.540484
+     -85.036100,39.569162
+     -85.036017,39.576539
+     -85.035986,39.583847
+     -85.035995,39.591114
+     -85.035815,39.598184
+     -85.035934,39.613468
+     -85.035382,39.613492
+     -85.035150,39.624392
+     -85.035186,39.627916
+     -85.035134,39.633720
+     -85.035124,39.634963
+     -85.035092,39.640980
+     -85.034940,39.657063
+     -85.034906,39.660403
+     -85.034627,39.690969
+     -85.034605,39.705762
+     -85.034588,39.710942
+     -85.034468,39.714580
+     -85.034284,39.729130
+     -85.015677,39.728940
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>UNION, IN</name>
+   <description>Latitude:   39.631932
+Longitude: -84.921939</description>
+   <Point>
+      <coordinates>-84.921939, 39.631932, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

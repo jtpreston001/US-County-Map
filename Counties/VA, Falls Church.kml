@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>FALLS CHURCH, VA</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-77.178277</longitude>
+  <latitude>38.884186</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 51/11 -->
+<Placemark>
+<name>FALLS CHURCH, VA</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -77.172160,38.893253
+     -77.165837,38.888376
+     -77.165649,38.888210
+     -77.163397,38.886513
+     -77.159102,38.883211
+     -77.154002,38.879011
+     -77.150001,38.876211
+     -77.149301,38.873212
+     -77.154938,38.872244
+     -77.155222,38.872403
+     -77.155900,38.872698
+     -77.163178,38.874958
+     -77.167402,38.876611
+     -77.177602,38.879511
+     -77.178702,38.879711
+     -77.178802,38.879411
+     -77.180302,38.879111
+     -77.184502,38.879011
+     -77.189402,38.878211
+     -77.192442,38.883220
+     -77.193781,38.885488
+     -77.194203,38.886211
+     -77.191402,38.891611
+     -77.190002,38.894411
+     -77.189102,38.896111
+     -77.175761,38.893853
+     -77.175606,38.893826
+     -77.172160,38.893253
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>FALLS CHURCH, VA</name>
+   <description>Latitude:   38.884186
+Longitude: -77.178277</description>
+   <Point>
+      <coordinates>-77.178277, 38.884186, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

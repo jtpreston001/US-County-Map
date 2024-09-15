@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>PERSON, NC</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-78.964456</longitude>
+  <latitude>36.386032</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 37/14 -->
+<Placemark>
+<name>PERSON, NC</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -78.970577,36.542154
+     -78.964943,36.542139
+     -78.942254,36.542079
+     -78.942009,36.542113
+     -78.920212,36.541999
+     -78.915420,36.541974
+     -78.914543,36.541972
+     -78.901923,36.541944
+     -78.871853,36.541878
+     -78.796300,36.541713
+     -78.794894,36.524834
+     -78.796783,36.458812
+     -78.797249,36.442588
+     -78.797508,36.432806
+     -78.797604,36.429195
+     -78.799629,36.352541
+     -78.799856,36.342025
+     -78.800036,36.333648
+     -78.800549,36.309890
+     -78.800768,36.298799
+     -78.800952,36.290447
+     -78.801783,36.248118
+     -78.802005,36.235937
+     -78.827990,36.236532
+     -78.831763,36.236621
+     -78.832100,36.236629
+     -78.833085,36.236652
+     -78.888827,36.238052
+     -78.906393,36.238412
+     -78.919656,36.238684
+     -78.921435,36.238720
+     -78.932772,36.238847
+     -78.933018,36.238864
+     -78.950790,36.239161
+     -78.993850,36.239936
+     -79.008299,36.240736
+     -79.032111,36.240922
+     -79.032589,36.240927
+     -79.036004,36.240962
+     -79.065775,36.241177
+     -79.071382,36.241218
+     -79.113193,36.241631
+     -79.118152,36.241675
+     -79.133543,36.241885
+     -79.153733,36.242117
+     -79.152863,36.262163
+     -79.148737,36.344126
+     -79.148525,36.348406
+     -79.148411,36.350916
+     -79.148335,36.352496
+     -79.146167,36.394598
+     -79.143331,36.444335
+     -79.143175,36.447068
+     -79.142946,36.451077
+     -79.141874,36.469270
+     -79.137936,36.541739
+     -79.126078,36.541533
+     -79.124736,36.541568
+     -78.971814,36.542123
+     -78.970577,36.542154
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>PERSON, NC</name>
+   <description>Latitude:   36.386032
+Longitude: -78.964456</description>
+   <Point>
+      <coordinates>-78.964456, 36.386032, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>LA SALLE, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-99.226424</longitude>
+  <latitude>28.322008</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/239 -->
+<Placemark>
+<name>LA SALLE, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -98.800841,28.647487
+     -98.801182,28.638075
+     -98.801646,28.625262
+     -98.801169,28.599274
+     -98.801464,28.542518
+     -98.801044,28.496709
+     -98.800825,28.488198
+     -98.800764,28.488199
+     -98.800719,28.472642
+     -98.800888,28.445294
+     -98.800929,28.444285
+     -98.800896,28.432855
+     -98.800922,28.432603
+     -98.801240,28.351598
+     -98.801206,28.253339
+     -98.800307,28.221237
+     -98.800083,28.202423
+     -98.802512,28.103116
+     -98.803325,28.057480
+     -98.862242,28.054798
+     -98.958613,28.051511
+     -98.966308,28.051402
+     -99.000302,28.050513
+     -99.076734,28.045419
+     -99.114800,28.043117
+     -99.263218,28.036489
+     -99.263977,28.036519
+     -99.356575,28.031942
+     -99.388947,28.030416
+     -99.393378,28.176948
+     -99.393719,28.188715
+     -99.394177,28.204627
+     -99.395668,28.252096
+     -99.394675,28.329866
+     -99.394414,28.349792
+     -99.394630,28.349818
+     -99.395228,28.364052
+     -99.395275,28.364034
+     -99.395923,28.426103
+     -99.396674,28.500263
+     -99.395945,28.500263
+     -99.396296,28.551503
+     -99.395707,28.625258
+     -99.395736,28.640784
+     -99.232641,28.643670
+     -99.230524,28.643716
+     -99.213306,28.644093
+     -99.179052,28.644164
+     -99.178272,28.644141
+     -99.176972,28.644186
+     -99.176079,28.644189
+     -99.161249,28.644185
+     -99.155272,28.644344
+     -99.137469,28.644660
+     -99.137269,28.644628
+     -99.136741,28.644545
+     -99.117349,28.644616
+     -99.117124,28.644618
+     -99.053706,28.645156
+     -99.005218,28.645615
+     -98.986901,28.646060
+     -98.915382,28.646674
+     -98.903523,28.646777
+     -98.874218,28.646950
+     -98.869358,28.647044
+     -98.800841,28.647487
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>LA SALLE, TX</name>
+   <description>Latitude:   28.322008
+Longitude: -99.226424</description>
+   <Point>
+      <coordinates>-99.226424, 28.322008, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

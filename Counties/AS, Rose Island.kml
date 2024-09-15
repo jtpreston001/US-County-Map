@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>ROSE ISLAND, AS</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-168.131871</longitude>
+  <latitude>-14.597254</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 60/13 -->
+<Placemark>
+<name>ROSE ISLAND, AS</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -168.131155,-14.598398
+     -168.132625,-14.597187
+     -168.132125,-14.596362
+     -168.131285,-14.597048
+     -168.130856,-14.598074
+     -168.131155,-14.598398
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>ROSE ISLAND, AS</name>
+   <description>Latitude:   -14.597254
+Longitude: -168.131871</description>
+   <Point>
+      <coordinates>-168.131871, -14.597254, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- from boundary file 60/14 -->
+<Placemark>
+<name>ROSE ISLAND, AS</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -168.133569,-14.605255
+     -168.134595,-14.604545
+     -168.136721,-14.601654
+     -168.137716,-14.599464
+     -168.137450,-14.598858
+     -168.134537,-14.598159
+     -168.134399,-14.598959
+     -168.136409,-14.599350
+     -168.136723,-14.599883
+     -168.136285,-14.601338
+     -168.134297,-14.603744
+     -168.133804,-14.604002
+     -168.132763,-14.603904
+     -168.130173,-14.602640
+     -168.129359,-14.601993
+     -168.129286,-14.601637
+     -168.130984,-14.599069
+     -168.130468,-14.599044
+     -168.128544,-14.601183
+     -168.128261,-14.601789
+     -168.128422,-14.602630
+     -168.133569,-14.605255
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>ROSE ISLAND, AS</name>
+   <description>Latitude:   -14.603043
+Longitude: -168.130115</description>
+   <Point>
+      <coordinates>-168.130115, -14.603043, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

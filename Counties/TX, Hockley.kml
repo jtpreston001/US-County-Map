@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>HOCKLEY, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-102.347153</longitude>
+  <latitude>33.602327</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/52 -->
+<Placemark>
+<name>HOCKLEY, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.509468,33.824970
+     -102.503045,33.824954
+     -102.440689,33.825067
+     -102.401035,33.825061
+     -102.327651,33.824982
+     -102.281912,33.824953
+     -102.225949,33.824690
+     -102.085700,33.824675
+     -102.084778,33.781721
+     -102.084756,33.780728
+     -102.084195,33.755113
+     -102.083441,33.722841
+     -102.083338,33.718384
+     -102.082656,33.688879
+     -102.081360,33.635734
+     -102.081214,33.625087
+     -102.080887,33.608207
+     -102.080821,33.604819
+     -102.080515,33.588435
+     -102.080409,33.582763
+     -102.080455,33.582374
+     -102.080387,33.579636
+     -102.080378,33.579290
+     -102.080076,33.567100
+     -102.079615,33.548553
+     -102.079602,33.547822
+     -102.079401,33.536574
+     -102.079197,33.528089
+     -102.078440,33.506091
+     -102.078453,33.500581
+     -102.078242,33.490707
+     -102.078310,33.480259
+     -102.078152,33.468515
+     -102.075929,33.389586
+     -102.118450,33.389429
+     -102.125450,33.388945
+     -102.184964,33.389372
+     -102.289425,33.388954
+     -102.318180,33.388837
+     -102.330506,33.388788
+     -102.364604,33.388651
+     -102.368632,33.388635
+     -102.373260,33.388616
+     -102.381252,33.388652
+     -102.444207,33.388460
+     -102.594836,33.388489
+     -102.595021,33.392824
+     -102.595790,33.409218
+     -102.600224,33.499685
+     -102.600245,33.500097
+     -102.600170,33.501315
+     -102.601176,33.528378
+     -102.604097,33.589037
+     -102.604796,33.603517
+     -102.606665,33.641733
+     -102.607549,33.656995
+     -102.612244,33.757015
+     -102.614108,33.796156
+     -102.614496,33.804021
+     -102.615447,33.825121
+     -102.512169,33.824977
+     -102.509468,33.824970
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>HOCKLEY, TX</name>
+   <description>Latitude:   33.602327
+Longitude: -102.347153</description>
+   <Point>
+      <coordinates>-102.347153, 33.602327, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

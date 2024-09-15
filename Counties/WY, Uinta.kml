@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>UINTA, WY</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-110.535311</longitude>
+  <latitude>41.272225</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 56/23 -->
+<Placemark>
+<name>UINTA, WY</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -110.559445,41.579189
+     -110.557373,41.579174
+     -110.441265,41.579122
+     -110.342037,41.578936
+     -110.337710,41.578777
+     -110.334389,41.578777
+     -110.334366,41.578785
+     -110.278119,41.578426
+     -110.255158,41.578302
+     -110.254409,41.578275
+     -110.048003,41.577453
+     -110.048894,41.464664
+     -110.048597,41.404928
+     -110.048903,41.403324
+     -110.048926,41.279108
+     -110.048522,41.263626
+     -110.049047,41.246383
+     -110.048989,41.229152
+     -110.048949,41.217620
+     -110.048766,41.156959
+     -110.049165,41.138463
+     -110.048645,41.124953
+     -110.048646,41.040171
+     -110.048477,40.997555
+     -110.121639,40.997101
+     -110.125709,40.996550
+     -110.237848,40.995427
+     -110.250634,40.996085
+     -110.250709,40.996089
+     -110.281892,40.995804
+     -110.375714,40.994947
+     -110.500718,40.994746
+     -110.539819,40.996346
+     -110.545663,40.996346
+     -110.606737,40.996346
+     -110.644854,40.996347
+     -110.715026,40.996347
+     -110.725333,40.996491
+     -110.729569,40.996551
+     -110.750727,40.996847
+     -111.046723,40.997959
+     -111.046554,41.247939
+     -111.046551,41.251716
+     -111.046600,41.360692
+     -111.046264,41.377731
+     -111.045900,41.521672
+     -111.045822,41.552682
+     -111.045789,41.565571
+     -111.045818,41.579845
+     -110.924539,41.579246
+     -110.584942,41.579164
+     -110.579563,41.579166
+     -110.561293,41.579173
+     -110.559445,41.579189
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>UINTA, WY</name>
+   <description>Latitude:   41.272225
+Longitude: -110.535311</description>
+   <Point>
+      <coordinates>-110.535311, 41.272225, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

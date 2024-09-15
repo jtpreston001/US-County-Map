@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>ARMSTRONG, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.397783</longitude>
+  <latitude>34.996160</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/20 -->
+<Placemark>
+<name>ARMSTRONG, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.622941,35.183117
+     -101.488897,35.182937
+     -101.417627,35.182386
+     -101.328844,35.182009
+     -101.125433,35.181675
+     -101.086281,35.182140
+     -101.086447,35.165275
+     -101.087277,35.027147
+     -101.088241,34.981681
+     -101.088459,34.960070
+     -101.088431,34.959703
+     -101.090528,34.769755
+     -101.090614,34.762540
+     -101.090749,34.748246
+     -101.125431,34.747724
+     -101.233425,34.747859
+     -101.252710,34.748281
+     -101.265125,34.748275
+     -101.279572,34.748270
+     -101.279855,34.748270
+     -101.338871,34.748238
+     -101.385996,34.748297
+     -101.386032,34.748330
+     -101.434887,34.747504
+     -101.434904,34.747420
+     -101.471562,34.747462
+     -101.599373,34.747522
+     -101.629257,34.747649
+     -101.629255,34.748194
+     -101.629396,34.750056
+     -101.627507,34.865974
+     -101.627618,34.883270
+     -101.626374,34.929726
+     -101.625853,34.985783
+     -101.625081,35.001370
+     -101.625011,35.015073
+     -101.623931,35.102982
+     -101.622941,35.183117
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>ARMSTRONG, TX</name>
+   <description>Latitude:   34.996160
+Longitude: -101.397783</description>
+   <Point>
+      <coordinates>-101.397783, 34.996160, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

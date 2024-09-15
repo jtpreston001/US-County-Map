@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>CARSON, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.370113</longitude>
+  <latitude>35.353440</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/12 -->
+<Placemark>
+<name>CARSON, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.086069,35.625043
+     -101.085935,35.619102
+     -101.085988,35.532029
+     -101.086192,35.500440
+     -101.086192,35.500045
+     -101.086037,35.476584
+     -101.085951,35.415279
+     -101.086175,35.328149
+     -101.086281,35.182140
+     -101.125433,35.181675
+     -101.328844,35.182009
+     -101.417627,35.182386
+     -101.488897,35.182937
+     -101.622941,35.183117
+     -101.622828,35.262038
+     -101.622825,35.262462
+     -101.622801,35.265340
+     -101.622843,35.353204
+     -101.622885,35.375048
+     -101.623458,35.387470
+     -101.622716,35.427117
+     -101.623060,35.483698
+     -101.622905,35.529507
+     -101.622781,35.579309
+     -101.622781,35.584163
+     -101.622800,35.620196
+     -101.622831,35.624057
+     -101.577625,35.624180
+     -101.559502,35.624155
+     -101.506514,35.624199
+     -101.434572,35.624418
+     -101.404095,35.624527
+     -101.400183,35.624541
+     -101.292969,35.624821
+     -101.274996,35.624913
+     -101.086068,35.625267
+     -101.086069,35.625043
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>CARSON, TX</name>
+   <description>Latitude:   35.353440
+Longitude: -101.370113</description>
+   <Point>
+      <coordinates>-101.370113, 35.353440, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

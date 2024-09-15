@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>NOLAN, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.423986</longitude>
+  <latitude>32.361884</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/102 -->
+<Placemark>
+<name>NOLAN, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.379136,32.523798
+     -100.361642,32.523858
+     -100.260171,32.523850
+     -100.146543,32.522794
+     -100.146962,32.494634
+     -100.146972,32.494136
+     -100.148683,32.397755
+     -100.148795,32.390132
+     -100.148924,32.378560
+     -100.148930,32.378069
+     -100.148938,32.377333
+     -100.148996,32.365420
+     -100.149101,32.343117
+     -100.149307,32.314388
+     -100.149543,32.281615
+     -100.149819,32.252011
+     -100.151062,32.125135
+     -100.151703,32.111015
+     -100.151815,32.094516
+     -100.151842,32.090639
+     -100.151843,32.090423
+     -100.151849,32.089500
+     -100.151911,32.082638
+     -100.235137,32.082372
+     -100.239918,32.082086
+     -100.240011,32.082036
+     -100.250373,32.081592
+     -100.314026,32.081377
+     -100.316320,32.081384
+     -100.325082,32.081414
+     -100.411476,32.082300
+     -100.428696,32.082468
+     -100.538727,32.083637
+     -100.618581,32.084788
+     -100.625382,32.085388
+     -100.665353,32.085407
+     -100.664838,32.123872
+     -100.664125,32.125130
+     -100.664094,32.130229
+     -100.664094,32.208144
+     -100.663890,32.259010
+     -100.663253,32.305940
+     -100.663228,32.307874
+     -100.662208,32.380534
+     -100.662076,32.388022
+     -100.661563,32.428995
+     -100.661546,32.430404
+     -100.661029,32.470530
+     -100.660626,32.525312
+     -100.523846,32.524522
+     -100.400900,32.523904
+     -100.379136,32.523798
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>NOLAN, TX</name>
+   <description>Latitude:   32.361884
+Longitude: -100.423986</description>
+   <Point>
+      <coordinates>-100.423986, 32.361884, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

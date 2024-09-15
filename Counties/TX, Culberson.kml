@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>CULBERSON, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-104.664713</longitude>
+  <latitude>31.333058</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/133 -->
+<Placemark>
+<name>CULBERSON, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -104.643526,32.000443
+     -104.640918,32.000396
+     -104.531937,32.000311
+     -104.531756,32.000117
+     -104.024521,32.000010
+     -104.036237,31.869661
+     -104.057033,31.630616
+     -104.066199,31.523222
+     -104.070817,31.468823
+     -104.089818,31.250134
+     -104.091043,31.240314
+     -104.100216,31.133361
+     -104.100333,31.125136
+     -104.101034,31.124740
+     -104.102354,31.105163
+     -104.103691,31.104443
+     -104.211692,31.046179
+     -104.293588,31.004227
+     -104.300390,31.000135
+     -104.493925,30.895215
+     -104.625482,30.822798
+     -104.917163,30.663626
+     -104.916396,30.835979
+     -104.907592,30.835919
+     -104.907388,30.940816
+     -104.907819,30.984963
+     -104.907983,30.984954
+     -104.908893,31.000134
+     -104.908864,31.042210
+     -104.909161,31.161047
+     -104.909217,31.165066
+     -104.909202,31.166406
+     -104.909124,31.242814
+     -104.909529,31.269438
+     -104.911152,31.353730
+     -104.912369,31.469049
+     -104.913093,31.586900
+     -104.912889,31.625120
+     -104.916632,31.763823
+     -104.918276,31.813306
+     -104.918334,31.875115
+     -104.917661,31.885192
+     -104.918691,32.000113
+     -104.918272,32.000496
+     -104.643526,32.000443
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>CULBERSON, TX</name>
+   <description>Latitude:   31.333058
+Longitude: -104.664713</description>
+   <Point>
+      <coordinates>-104.664713, 31.333058, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

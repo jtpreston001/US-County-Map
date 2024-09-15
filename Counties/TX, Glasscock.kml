@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>GLASSCOCK, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.600023</longitude>
+  <latitude>31.849950</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/118 -->
+<Placemark>
+<name>GLASSCOCK, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.695011,32.087532
+     -101.648990,32.087434
+     -101.443889,32.087159
+     -101.419286,32.087199
+     -101.392967,32.087205
+     -101.264216,32.087136
+     -101.264976,31.988298
+     -101.265076,31.974476
+     -101.265118,31.974259
+     -101.266190,31.800885
+     -101.267122,31.650854
+     -101.475578,31.651290
+     -101.477487,31.651294
+     -101.563710,31.651492
+     -101.634307,31.651440
+     -101.640197,31.651373
+     -101.640652,31.651396
+     -101.681069,31.651323
+     -101.684364,31.651318
+     -101.746737,31.651280
+     -101.775752,31.651493
+     -101.775719,31.658722
+     -101.775752,31.660076
+     -101.775697,31.665962
+     -101.775690,31.666709
+     -101.775675,31.672141
+     -101.775646,31.683375
+     -101.775826,31.717170
+     -101.776012,31.727899
+     -101.776028,31.730367
+     -101.776058,31.734788
+     -101.776424,31.767670
+     -101.775859,31.774002
+     -101.775952,31.821947
+     -101.775708,31.906739
+     -101.775708,31.906924
+     -101.776015,32.086767
+     -101.772185,32.086882
+     -101.747962,32.087214
+     -101.695011,32.087532
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>GLASSCOCK, TX</name>
+   <description>Latitude:   31.849950
+Longitude: -101.600023</description>
+   <Point>
+      <coordinates>-101.600023, 31.849950, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

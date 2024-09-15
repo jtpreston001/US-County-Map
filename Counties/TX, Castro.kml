@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>CASTRO, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-102.267563</longitude>
+  <latitude>34.521409</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/24 -->
+<Placemark>
+<name>CASTRO, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.004094,34.748070
+     -101.998493,34.748190
+     -101.998401,34.647000
+     -101.998398,34.632297
+     -101.998393,34.617793
+     -101.998354,34.529787
+     -101.998251,34.482947
+     -101.998223,34.449330
+     -101.998210,34.437565
+     -101.998160,34.427251
+     -101.998142,34.419400
+     -101.998033,34.321731
+     -101.998020,34.313039
+     -101.999753,34.313041
+     -102.090415,34.313132
+     -102.163717,34.312887
+     -102.181453,34.313073
+     -102.199331,34.313156
+     -102.269813,34.313124
+     -102.287285,34.313123
+     -102.322300,34.313123
+     -102.325644,34.313123
+     -102.339749,34.313123
+     -102.435850,34.313258
+     -102.453341,34.313280
+     -102.496992,34.313251
+     -102.503029,34.313119
+     -102.525631,34.313034
+     -102.525808,34.464961
+     -102.525673,34.465807
+     -102.525833,34.499729
+     -102.525305,34.500070
+     -102.525267,34.530828
+     -102.525173,34.610109
+     -102.525160,34.743324
+     -102.525184,34.746931
+     -102.493300,34.746775
+     -102.364422,34.746068
+     -102.317523,34.746384
+     -102.191526,34.747292
+     -102.173706,34.747391
+     -102.168839,34.747417
+     -102.161327,34.747459
+     -102.120455,34.747664
+     -102.025924,34.747986
+     -102.008443,34.748053
+     -102.004094,34.748070
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>CASTRO, TX</name>
+   <description>Latitude:   34.521409
+Longitude: -102.267563</description>
+   <Point>
+      <coordinates>-102.267563, 34.521409, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

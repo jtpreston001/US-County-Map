@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>OLDHAM, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-102.504801</longitude>
+  <latitude>35.417806</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/11 -->
+<Placemark>
+<name>OLDHAM, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.162809,35.627515
+     -102.162762,35.624009
+     -102.162752,35.620035
+     -102.163830,35.500048
+     -102.164503,35.495839
+     -102.165474,35.403830
+     -102.165458,35.351308
+     -102.167123,35.208596
+     -102.167175,35.205143
+     -102.167419,35.189114
+     -102.167471,35.183233
+     -102.242773,35.183031
+     -102.250478,35.183758
+     -102.272169,35.183794
+     -102.293880,35.184800
+     -102.329191,35.184988
+     -102.382179,35.185382
+     -102.403817,35.185520
+     -102.543070,35.186588
+     -102.558979,35.186651
+     -102.578750,35.186730
+     -102.594335,35.186792
+     -102.625488,35.187249
+     -102.744643,35.184853
+     -102.837784,35.183794
+     -102.979737,35.183688
+     -103.008200,35.183128
+     -103.008309,35.183117
+     -103.042377,35.183149
+     -103.042497,35.211862
+     -103.042775,35.241237
+     -103.042366,35.250056
+     -103.041554,35.622487
+     -103.040525,35.622489
+     -103.036069,35.622502
+     -102.999725,35.622889
+     -102.875491,35.623055
+     -102.867923,35.623706
+     -102.748378,35.623972
+     -102.625483,35.624043
+     -102.613930,35.624655
+     -102.449476,35.625865
+     -102.162809,35.627515
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>OLDHAM, TX</name>
+   <description>Latitude:   35.417806
+Longitude: -102.504801</description>
+   <Point>
+      <coordinates>-102.504801, 35.417806, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

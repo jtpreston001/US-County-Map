@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>LOGAN, NE</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.483131</longitude>
+  <latitude>41.626071</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 31/42 -->
+<Placemark>
+<name>LOGAN, NE</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.282713,41.739827
+     -100.275261,41.739894
+     -100.270710,41.739824
+     -100.265482,41.739821
+     -100.263778,41.739821
+     -100.251224,41.739724
+     -100.252934,41.622597
+     -100.252804,41.566751
+     -100.252220,41.454545
+     -100.252075,41.446218
+     -100.251956,41.443450
+     -100.251794,41.420551
+     -100.251408,41.410851
+     -100.251297,41.396668
+     -100.251116,41.393258
+     -100.289549,41.393410
+     -100.342074,41.393339
+     -100.405176,41.393445
+     -100.501343,41.393373
+     -100.530171,41.393408
+     -100.638045,41.393517
+     -100.695090,41.393595
+     -100.703718,41.393571
+     -100.708547,41.393433
+     -100.713243,41.393511
+     -100.713225,41.394141
+     -100.713491,41.421617
+     -100.713606,41.432981
+     -100.713827,41.443391
+     -100.713886,41.446567
+     -100.713888,41.450936
+     -100.713829,41.472874
+     -100.713777,41.475754
+     -100.713718,41.479894
+     -100.714063,41.513216
+     -100.713884,41.521886
+     -100.713483,41.523284
+     -100.714847,41.544806
+     -100.714250,41.566607
+     -100.711711,41.739761
+     -100.669378,41.739731
+     -100.602305,41.740122
+     -100.599143,41.739773
+     -100.500421,41.739901
+     -100.490754,41.739446
+     -100.457933,41.739508
+     -100.313468,41.739715
+     -100.306841,41.739875
+     -100.282713,41.739827
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>LOGAN, NE</name>
+   <description>Latitude:   41.626071
+Longitude: -100.483131</description>
+   <Point>
+      <coordinates>-100.483131, 41.626071, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>HUTCHINSON, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.420131</longitude>
+  <latitude>35.837008</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/10 -->
+<Placemark>
+<name>HUTCHINSON, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.623466,36.055405
+     -101.479967,36.055278
+     -101.473025,36.055281
+     -101.341575,36.055257
+     -101.085735,36.055276
+     -101.085921,35.915805
+     -101.086062,35.821390
+     -101.086068,35.625267
+     -101.274996,35.624913
+     -101.292969,35.624821
+     -101.400183,35.624541
+     -101.404095,35.624527
+     -101.434572,35.624418
+     -101.506514,35.624199
+     -101.559502,35.624155
+     -101.577625,35.624180
+     -101.622831,35.624057
+     -101.622714,35.632523
+     -101.622701,35.633272
+     -101.622690,35.633983
+     -101.622695,35.638440
+     -101.622692,35.639572
+     -101.622722,35.641514
+     -101.622740,35.643780
+     -101.622752,35.645775
+     -101.622792,35.649442
+     -101.622841,35.651176
+     -101.622890,35.677858
+     -101.622933,35.697589
+     -101.622967,35.761477
+     -101.622959,35.772834
+     -101.622959,35.773290
+     -101.623021,35.811029
+     -101.623071,35.848155
+     -101.623089,35.870614
+     -101.623091,35.872879
+     -101.623099,35.905907
+     -101.623104,35.915099
+     -101.623107,35.920614
+     -101.623241,35.994818
+     -101.623268,36.000905
+     -101.623215,36.004544
+     -101.623380,36.023867
+     -101.623394,36.034670
+     -101.623466,36.055405
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>HUTCHINSON, TX</name>
+   <description>Latitude:   35.837008
+Longitude: -101.420131</description>
+   <Point>
+      <coordinates>-101.420131, 35.837008, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

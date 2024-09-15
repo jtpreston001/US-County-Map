@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>POCAHONTAS, IA</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-94.674023</longitude>
+  <latitude>42.733927</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 19/25 -->
+<Placemark>
+<name>POCAHONTAS, IA</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -94.698676,42.908924
+     -94.678828,42.908925
+     -94.560495,42.908982
+     -94.541194,42.908785
+     -94.500252,42.908267
+     -94.499877,42.908265
+     -94.462759,42.908075
+     -94.442952,42.908074
+     -94.443005,42.887379
+     -94.442973,42.886145
+     -94.442942,42.884772
+     -94.442910,42.884334
+     -94.442911,42.881593
+     -94.442911,42.881022
+     -94.442539,42.862711
+     -94.442845,42.819532
+     -94.442937,42.813083
+     -94.442969,42.799494
+     -94.442997,42.790122
+     -94.443026,42.775645
+     -94.443045,42.772588
+     -94.443206,42.736583
+     -94.443211,42.733643
+     -94.443211,42.732362
+     -94.443211,42.730029
+     -94.443197,42.729597
+     -94.443173,42.724897
+     -94.443147,42.717450
+     -94.442984,42.645043
+     -94.443231,42.630817
+     -94.443244,42.628443
+     -94.443106,42.596134
+     -94.443446,42.595014
+     -94.442946,42.558878
+     -94.539706,42.558718
+     -94.560279,42.559177
+     -94.602798,42.559559
+     -94.618964,42.559872
+     -94.657997,42.559678
+     -94.678167,42.559224
+     -94.697409,42.559292
+     -94.717083,42.559197
+     -94.728935,42.559288
+     -94.736634,42.559373
+     -94.796674,42.559589
+     -94.835992,42.559840
+     -94.843354,42.559975
+     -94.855635,42.560039
+     -94.914719,42.560184
+     -94.915598,42.618176
+     -94.915925,42.647108
+     -94.915007,42.705077
+     -94.914538,42.719506
+     -94.914287,42.729645
+     -94.914255,42.734415
+     -94.913971,42.748798
+     -94.914080,42.777869
+     -94.914167,42.792389
+     -94.914037,42.806910
+     -94.914094,42.821728
+     -94.914062,42.828795
+     -94.914027,42.836339
+     -94.914082,42.855339
+     -94.914186,42.904193
+     -94.914122,42.909841
+     -94.796987,42.909109
+     -94.698676,42.908924
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>POCAHONTAS, IA</name>
+   <description>Latitude:   42.733927
+Longitude: -94.674023</description>
+   <Point>
+      <coordinates>-94.674023, 42.733927, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

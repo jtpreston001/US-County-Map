@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>MCPHERSON, NE</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.060248</longitude>
+  <latitude>41.492190</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 31/34 -->
+<Placemark>
+<name>MCPHERSON, NE</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.373748,41.743559
+     -101.369850,41.743481
+     -101.250446,41.742536
+     -101.174163,41.742435
+     -101.125440,41.742435
+     -100.973142,41.740039
+     -100.943573,41.739997
+     -100.875430,41.739903
+     -100.858544,41.740375
+     -100.855774,41.740429
+     -100.842459,41.740404
+     -100.711711,41.739761
+     -100.714250,41.566607
+     -100.714847,41.544806
+     -100.713483,41.523284
+     -100.713884,41.521886
+     -100.714063,41.513216
+     -100.713718,41.479894
+     -100.713777,41.475754
+     -100.713829,41.472874
+     -100.713888,41.450936
+     -100.713886,41.446567
+     -100.713827,41.443391
+     -100.713606,41.432981
+     -100.713491,41.421617
+     -100.713225,41.394141
+     -100.713243,41.393511
+     -100.713954,41.393523
+     -100.771473,41.393694
+     -100.776212,41.393726
+     -100.811734,41.393781
+     -100.878479,41.394179
+     -100.944895,41.394517
+     -101.021889,41.394865
+     -101.155282,41.395025
+     -101.174400,41.395020
+     -101.175788,41.395019
+     -101.269695,41.394934
+     -101.313752,41.395070
+     -101.366567,41.395454
+     -101.407260,41.395416
+     -101.407267,41.409880
+     -101.407224,41.417119
+     -101.406836,41.509803
+     -101.406744,41.535763
+     -101.406696,41.568880
+     -101.406669,41.579808
+     -101.406657,41.584751
+     -101.406416,41.610389
+     -101.406718,41.617113
+     -101.407020,41.624991
+     -101.406466,41.743200
+     -101.373748,41.743559
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>MCPHERSON, NE</name>
+   <description>Latitude:   41.492190
+Longitude: -101.060248</description>
+   <Point>
+      <coordinates>-101.060248, 41.492190, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

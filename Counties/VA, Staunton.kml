@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>STAUNTON, VA</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-79.059752</longitude>
+  <latitude>38.158397</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 51/37 -->
+<Placemark>
+<name>STAUNTON, VA</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -79.037479,38.129157
+     -79.038294,38.127666
+     -79.041399,38.125842
+     -79.048635,38.122041
+     -79.053721,38.123034
+     -79.054014,38.123024
+     -79.053921,38.123145
+     -79.063572,38.128380
+     -79.066133,38.129672
+     -79.068840,38.131011
+     -79.071676,38.128439
+     -79.077278,38.126838
+     -79.083132,38.126732
+     -79.087200,38.127793
+     -79.088981,38.128751
+     -79.090858,38.130735
+     -79.090818,38.132172
+     -79.091680,38.132164
+     -79.093078,38.133472
+     -79.106829,38.139014
+     -79.108844,38.142832
+     -79.110963,38.146917
+     -79.113258,38.152063
+     -79.113386,38.154050
+     -79.110080,38.161799
+     -79.108466,38.166606
+     -79.103175,38.176901
+     -79.098768,38.182906
+     -79.096234,38.185530
+     -79.093483,38.186608
+     -79.088779,38.187515
+     -79.083478,38.188151
+     -79.080407,38.186087
+     -79.080420,38.186077
+     -79.060319,38.186120
+     -79.045510,38.188924
+     -79.044960,38.189993
+     -79.042600,38.191385
+     -79.040178,38.191961
+     -79.038775,38.193126
+     -79.037006,38.195296
+     -79.035084,38.197439
+     -79.024326,38.193477
+     -79.026157,38.190991
+     -79.023761,38.189577
+     -79.012631,38.183139
+     -79.017889,38.182509
+     -79.022011,38.180823
+     -79.025501,38.176483
+     -79.013369,38.168459
+     -79.012206,38.166153
+     -79.012688,38.164295
+     -79.014052,38.161619
+     -79.017460,38.149051
+     -79.019190,38.148050
+     -79.017926,38.147152
+     -79.021048,38.141575
+     -79.026006,38.135627
+     -79.028006,38.133728
+     -79.034266,38.130068
+     -79.038090,38.129794
+     -79.037479,38.129157
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>STAUNTON, VA</name>
+   <description>Latitude:   38.158397
+Longitude: -79.059752</description>
+   <Point>
+      <coordinates>-79.059752, 38.158397, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

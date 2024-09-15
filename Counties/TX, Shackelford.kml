@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>SHACKELFORD, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-99.323503</longitude>
+  <latitude>32.719966</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/89 -->
+<Placemark>
+<name>SHACKELFORD, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -99.322505,32.957124
+     -99.321689,32.957078
+     -99.235577,32.957047
+     -99.234815,32.957046
+     -99.229543,32.957003
+     -99.229216,32.957003
+     -99.222912,32.956982
+     -99.222667,32.956936
+     -99.210437,32.956907
+     -99.202773,32.956861
+     -99.190761,32.956791
+     -99.183505,32.956750
+     -99.175401,32.956703
+     -99.151835,32.956567
+     -99.138199,32.956488
+     -99.125352,32.956414
+     -99.120080,32.957101
+     -99.096016,32.957037
+     -99.095939,32.842194
+     -99.095764,32.760818
+     -99.095763,32.759984
+     -99.095760,32.757207
+     -99.095971,32.676454
+     -99.096050,32.514768
+     -99.114293,32.514811
+     -99.191692,32.515002
+     -99.193118,32.515013
+     -99.297423,32.515127
+     -99.340845,32.514998
+     -99.383343,32.515006
+     -99.397104,32.515110
+     -99.432910,32.514979
+     -99.441598,32.514941
+     -99.560916,32.514721
+     -99.612026,32.514654
+     -99.612064,32.537585
+     -99.612022,32.560176
+     -99.612062,32.673735
+     -99.612077,32.692622
+     -99.612126,32.698118
+     -99.612059,32.750117
+     -99.611834,32.755970
+     -99.611988,32.792389
+     -99.611961,32.792595
+     -99.611965,32.797995
+     -99.611968,32.798935
+     -99.614840,32.799789
+     -99.614763,32.803610
+     -99.611983,32.803606
+     -99.612007,32.811042
+     -99.612008,32.811402
+     -99.612222,32.884128
+     -99.612025,32.952021
+     -99.612023,32.952339
+     -99.612001,32.956962
+     -99.611948,32.956962
+     -99.611064,32.956962
+     -99.476948,32.957030
+     -99.471258,32.957025
+     -99.322505,32.957124
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>SHACKELFORD, TX</name>
+   <description>Latitude:   32.719966
+Longitude: -99.323503</description>
+   <Point>
+      <coordinates>-99.323503, 32.719966, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>CROSBY, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.298742</longitude>
+  <latitude>33.641073</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/49 -->
+<Placemark>
+<name>CROSBY, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.563580,33.830451
+     -101.509442,33.830954
+     -101.483391,33.831120
+     -101.465959,33.831288
+     -101.370254,33.831927
+     -101.335696,33.832242
+     -101.270405,33.832864
+     -101.251676,33.833011
+     -101.230619,33.832728
+     -101.149332,33.833149
+     -101.121064,33.833279
+     -101.041158,33.833625
+     -101.041118,33.827379
+     -101.040975,33.805048
+     -101.039961,33.631721
+     -101.039379,33.565382
+     -101.039341,33.560352
+     -101.039135,33.521284
+     -101.039086,33.513869
+     -101.038788,33.397214
+     -101.092533,33.397160
+     -101.113755,33.397132
+     -101.132188,33.397111
+     -101.139404,33.397094
+     -101.162024,33.397026
+     -101.165650,33.397016
+     -101.166562,33.397013
+     -101.182756,33.396963
+     -101.183518,33.396960
+     -101.200476,33.396902
+     -101.269603,33.396700
+     -101.274485,33.396688
+     -101.367900,33.396466
+     -101.385807,33.395910
+     -101.436483,33.395576
+     -101.437213,33.395572
+     -101.453401,33.395493
+     -101.454539,33.395488
+     -101.509798,33.394847
+     -101.521632,33.394825
+     -101.556884,33.394760
+     -101.557611,33.456022
+     -101.559911,33.595162
+     -101.560357,33.624189
+     -101.561146,33.667134
+     -101.561237,33.672329
+     -101.563580,33.830451
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>CROSBY, TX</name>
+   <description>Latitude:   33.641073
+Longitude: -101.298742</description>
+   <Point>
+      <coordinates>-101.298742, 33.641073, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

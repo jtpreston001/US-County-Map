@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>HOOKER, NE</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.135078</longitude>
+  <latitude>41.937795</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 31/20 -->
+<Placemark>
+<name>HOOKER, NE</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.426557,42.092194
+     -101.412202,42.092113
+     -101.188310,42.091140
+     -101.094909,42.089922
+     -101.014308,42.089703
+     -101.000435,42.089140
+     -100.888591,42.089036
+     -100.875429,42.088225
+     -100.846129,42.088166
+     -100.846046,41.999997
+     -100.845632,41.976427
+     -100.844422,41.962991
+     -100.843507,41.912474
+     -100.843756,41.874996
+     -100.843719,41.850640
+     -100.843777,41.850605
+     -100.843662,41.783205
+     -100.843649,41.783205
+     -100.842459,41.740404
+     -100.855774,41.740429
+     -100.858544,41.740375
+     -100.875430,41.739903
+     -100.943573,41.739997
+     -100.973142,41.740039
+     -101.125440,41.742435
+     -101.174163,41.742435
+     -101.250446,41.742536
+     -101.369850,41.743481
+     -101.373748,41.743559
+     -101.406466,41.743200
+     -101.425920,41.743059
+     -101.426331,41.864906
+     -101.426070,41.999994
+     -101.426680,42.006232
+     -101.426225,42.071067
+     -101.426557,42.092194
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>HOOKER, NE</name>
+   <description>Latitude:   41.937795
+Longitude: -101.135078</description>
+   <Point>
+      <coordinates>-101.135078, 41.937795, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>BRISCOE, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.161347</longitude>
+  <latitude>34.518646</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/21 -->
+<Placemark>
+<name>BRISCOE, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.385996,34.748297
+     -101.338871,34.748238
+     -101.279855,34.748270
+     -101.279572,34.748270
+     -101.265125,34.748275
+     -101.252710,34.748281
+     -101.233425,34.747859
+     -101.125431,34.747724
+     -101.090749,34.748246
+     -100.944939,34.748281
+     -100.945177,34.630169
+     -100.945176,34.627945
+     -100.945157,34.622262
+     -100.945424,34.494768
+     -100.945538,34.492197
+     -100.945576,34.491798
+     -100.945462,34.484497
+     -100.945466,34.483358
+     -100.945819,34.386379
+     -100.945928,34.379510
+     -100.946346,34.370079
+     -100.946153,34.338640
+     -100.946119,34.333876
+     -100.946041,34.314445
+     -100.946162,34.312763
+     -100.963612,34.312808
+     -100.967062,34.312670
+     -101.041484,34.312444
+     -101.103956,34.312247
+     -101.112236,34.312252
+     -101.141381,34.312278
+     -101.193326,34.312258
+     -101.234700,34.312299
+     -101.236502,34.312287
+     -101.274825,34.312240
+     -101.294223,34.312258
+     -101.311947,34.312419
+     -101.329171,34.312576
+     -101.469205,34.312290
+     -101.471580,34.312290
+     -101.472050,34.439125
+     -101.472009,34.463163
+     -101.471738,34.534620
+     -101.471916,34.539794
+     -101.471916,34.540023
+     -101.471863,34.548075
+     -101.471407,34.636471
+     -101.471448,34.651790
+     -101.471562,34.747462
+     -101.434904,34.747420
+     -101.434887,34.747504
+     -101.386032,34.748330
+     -101.385996,34.748297
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>BRISCOE, TX</name>
+   <description>Latitude:   34.518646
+Longitude: -101.161347</description>
+   <Point>
+      <coordinates>-101.161347, 34.518646, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

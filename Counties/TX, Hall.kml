@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>HALL, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.726564</longitude>
+  <latitude>34.530149</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/22 -->
+<Placemark>
+<name>HALL, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.944939,34.748281
+     -100.847728,34.748311
+     -100.655294,34.748059
+     -100.600693,34.747959
+     -100.572735,34.747870
+     -100.555417,34.747773
+     -100.540703,34.747723
+     -100.523009,34.747638
+     -100.415895,34.747525
+     -100.415912,34.590453
+     -100.415798,34.561720
+     -100.415796,34.561263
+     -100.415881,34.528679
+     -100.415950,34.517006
+     -100.415950,34.515624
+     -100.417731,34.362239
+     -100.417783,34.313524
+     -100.498193,34.313527
+     -100.503373,34.314079
+     -100.517340,34.314102
+     -100.624038,34.314192
+     -100.625404,34.313399
+     -100.627354,34.313392
+     -100.672837,34.313474
+     -100.682782,34.313390
+     -100.693754,34.313299
+     -100.721134,34.313325
+     -100.723280,34.313319
+     -100.728891,34.313305
+     -100.766541,34.313281
+     -100.769851,34.313257
+     -100.897069,34.312962
+     -100.897905,34.313172
+     -100.897905,34.313035
+     -100.919963,34.312880
+     -100.946162,34.312763
+     -100.946041,34.314445
+     -100.946119,34.333876
+     -100.946153,34.338640
+     -100.946346,34.370079
+     -100.945928,34.379510
+     -100.945819,34.386379
+     -100.945466,34.483358
+     -100.945462,34.484497
+     -100.945576,34.491798
+     -100.945538,34.492197
+     -100.945424,34.494768
+     -100.945157,34.622262
+     -100.945176,34.627945
+     -100.945177,34.630169
+     -100.944939,34.748281
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>HALL, TX</name>
+   <description>Latitude:   34.530149
+Longitude: -100.726564</description>
+   <Point>
+      <coordinates>-100.726564, 34.530149, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

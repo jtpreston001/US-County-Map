@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>NOXUBEE, MS</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-88.569594</longitude>
+  <latitude>33.112710</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 28/37 -->
+<Placemark>
+<name>NOXUBEE, MS</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -88.669076,33.286922
+     -88.603682,33.286923
+     -88.556621,33.287011
+     -88.443288,33.288393
+     -88.376637,33.288022
+     -88.304417,33.288320
+     -88.312535,33.220923
+     -88.313631,33.213781
+     -88.315235,33.203323
+     -88.317135,33.184123
+     -88.322704,33.139329
+     -88.330818,33.074060
+     -88.330934,33.073125
+     -88.330964,33.072866
+     -88.330994,33.072605
+     -88.334112,33.045711
+     -88.340432,32.991199
+     -88.347849,32.929083
+     -88.356972,32.928793
+     -88.365772,32.928835
+     -88.372665,32.928917
+     -88.376239,32.928933
+     -88.389729,32.928886
+     -88.434386,32.928619
+     -88.436174,32.928542
+     -88.436504,32.928528
+     -88.448972,32.928481
+     -88.527720,32.927861
+     -88.618555,32.927175
+     -88.648640,32.926879
+     -88.688533,32.926848
+     -88.702185,32.926785
+     -88.705474,32.926782
+     -88.767978,32.926346
+     -88.784768,32.926236
+     -88.800818,32.926146
+     -88.801211,32.926134
+     -88.810134,32.925918
+     -88.812782,32.926001
+     -88.813078,32.954635
+     -88.813089,32.955645
+     -88.813296,33.014727
+     -88.813564,33.037699
+     -88.813606,33.051577
+     -88.813609,33.052502
+     -88.813737,33.101109
+     -88.813216,33.159744
+     -88.813171,33.173707
+     -88.813178,33.181495
+     -88.813183,33.182086
+     -88.813336,33.206150
+     -88.813159,33.235423
+     -88.813053,33.286424
+     -88.778148,33.286412
+     -88.721514,33.286558
+     -88.720097,33.286569
+     -88.669076,33.286922
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>NOXUBEE, MS</name>
+   <description>Latitude:   33.112710
+Longitude: -88.569594</description>
+   <Point>
+      <coordinates>-88.569594, 33.112710, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

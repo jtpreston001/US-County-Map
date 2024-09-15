@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>GRANT, NE</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.746973</longitude>
+  <latitude>41.939927</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 31/19 -->
+<Placemark>
+<name>GRANT, NE</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.000460,42.096267
+     -101.997198,42.096406
+     -101.855123,42.094203
+     -101.788589,42.093167
+     -101.640777,42.093593
+     -101.568138,42.093675
+     -101.437946,42.092212
+     -101.430333,42.092213
+     -101.426557,42.092194
+     -101.426225,42.071067
+     -101.426680,42.006232
+     -101.426070,41.999994
+     -101.426331,41.864906
+     -101.425920,41.743059
+     -101.640193,41.742442
+     -101.697390,41.742652
+     -101.706576,41.742632
+     -101.749348,41.742404
+     -101.751235,41.742407
+     -101.776827,41.742412
+     -101.799084,41.742393
+     -101.802427,41.742331
+     -101.807374,41.742236
+     -101.815073,41.742230
+     -101.854424,41.742194
+     -101.985523,41.742290
+     -101.990700,41.742291
+     -102.022244,41.741829
+     -102.067918,41.742099
+     -102.067866,41.748333
+     -102.067643,41.807161
+     -102.067608,41.809224
+     -102.067058,41.850700
+     -102.066935,41.854679
+     -102.066874,41.871756
+     -102.067559,41.874982
+     -102.067045,41.926359
+     -102.066310,41.999981
+     -102.066650,42.009195
+     -102.065846,42.009187
+     -102.008559,42.008900
+     -102.006204,42.096338
+     -102.000460,42.096267
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>GRANT, NE</name>
+   <description>Latitude:   41.939927
+Longitude: -101.746973</description>
+   <Point>
+      <coordinates>-101.746973, 41.939927, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

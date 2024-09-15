@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>MENARD, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-99.810087</longitude>
+  <latitude>30.896997</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/168 -->
+<Placemark>
+<name>MENARD, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.115216,31.087994
+     -100.051447,31.087680
+     -99.987544,31.087409
+     -99.966922,31.087371
+     -99.966678,31.087370
+     -99.944072,31.087328
+     -99.941914,31.087324
+     -99.933542,31.087309
+     -99.858304,31.087266
+     -99.858014,31.087266
+     -99.843381,31.087270
+     -99.840569,31.087271
+     -99.822015,31.087207
+     -99.678417,31.087036
+     -99.664030,31.087016
+     -99.603223,31.087296
+     -99.603684,30.981070
+     -99.603627,30.940726
+     -99.484755,30.940605
+     -99.484750,30.936568
+     -99.484375,30.825217
+     -99.484366,30.823445
+     -99.484141,30.780378
+     -99.483869,30.710771
+     -99.514130,30.710769
+     -99.518945,30.710780
+     -99.617912,30.711019
+     -99.625342,30.710544
+     -99.669010,30.710612
+     -99.758015,30.710818
+     -99.759082,30.710816
+     -99.771397,30.710793
+     -100.006747,30.710465
+     -100.086567,30.710377
+     -100.098861,30.710373
+     -100.116234,30.710366
+     -100.116503,30.822117
+     -100.116490,30.823097
+     -100.116398,30.875173
+     -100.115216,31.087994
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>MENARD, TX</name>
+   <description>Latitude:   30.896997
+Longitude: -99.810087</description>
+   <Point>
+      <coordinates>-99.810087, 30.896997, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

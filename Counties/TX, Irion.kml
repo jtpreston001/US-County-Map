@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>IRION, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.980704</longitude>
+  <latitude>31.416463</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/151 -->
+<Placemark>
+<name>IRION, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.267947,31.528688
+     -100.990998,31.527633
+     -100.693564,31.523959
+     -100.693066,31.523954
+     -100.692756,31.494005
+     -100.692739,31.492063
+     -100.692714,31.487491
+     -100.692243,31.438042
+     -100.690978,31.346394
+     -100.690930,31.337654
+     -100.690170,31.261932
+     -100.690117,31.260901
+     -100.690001,31.248311
+     -100.689683,31.211913
+     -100.688764,31.086576
+     -100.962176,31.082490
+     -100.973973,31.082299
+     -101.274799,31.079379
+     -101.271896,31.293765
+     -101.268946,31.442587
+     -101.268849,31.452369
+     -101.268557,31.478313
+     -101.268422,31.479167
+     -101.268276,31.501445
+     -101.267947,31.528688
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>IRION, TX</name>
+   <description>Latitude:   31.416463
+Longitude: -100.980704</description>
+   <Point>
+      <coordinates>-100.980704, 31.416463, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

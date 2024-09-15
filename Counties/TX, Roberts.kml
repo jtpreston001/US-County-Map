@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>ROBERTS, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-100.793813</longitude>
+  <latitude>35.929265</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/6 -->
+<Placemark>
+<name>ROBERTS, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.946976,36.057713
+     -100.946571,36.057712
+     -100.848413,36.057408
+     -100.546724,36.056536
+     -100.540221,36.056491
+     -100.539973,35.997839
+     -100.539577,35.954430
+     -100.539541,35.932114
+     -100.541008,35.841290
+     -100.541018,35.747363
+     -100.540954,35.735435
+     -100.540983,35.732138
+     -100.541096,35.729917
+     -100.540849,35.702830
+     -100.540696,35.687274
+     -100.540559,35.678291
+     -100.540406,35.668243
+     -100.540102,35.633983
+     -100.539975,35.621290
+     -100.540214,35.619296
+     -100.675637,35.619984
+     -100.741672,35.619786
+     -100.786565,35.620485
+     -100.810746,35.620184
+     -100.866022,35.619737
+     -100.875423,35.619152
+     -100.954520,35.619260
+     -101.085935,35.619102
+     -101.086069,35.625043
+     -101.086068,35.625267
+     -101.086062,35.821390
+     -101.085921,35.915805
+     -101.085735,36.055276
+     -101.085716,36.057572
+     -101.058637,36.057990
+     -100.946976,36.057713
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>ROBERTS, TX</name>
+   <description>Latitude:   35.929265
+Longitude: -100.793813</description>
+   <Point>
+      <coordinates>-100.793813, 35.929265, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

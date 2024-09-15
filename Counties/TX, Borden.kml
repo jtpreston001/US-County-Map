@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>BORDEN, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.458074</longitude>
+  <latitude>32.778739</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/83 -->
+<Placemark>
+<name>BORDEN, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.173378,32.963597
+     -101.173696,32.959017
+     -101.173710,32.875573
+     -101.173988,32.797454
+     -101.174337,32.740970
+     -101.174422,32.627897
+     -101.174730,32.620849
+     -101.174408,32.611778
+     -101.174410,32.610521
+     -101.174439,32.592265
+     -101.174440,32.591507
+     -101.174454,32.581676
+     -101.174459,32.578710
+     -101.174471,32.571139
+     -101.174471,32.570857
+     -101.174529,32.544399
+     -101.174536,32.539190
+     -101.174562,32.527703
+     -101.174571,32.524112
+     -101.305468,32.524246
+     -101.358231,32.524378
+     -101.494414,32.524984
+     -101.496336,32.524991
+     -101.627292,32.524995
+     -101.627400,32.525018
+     -101.688740,32.525222
+     -101.689256,32.620228
+     -101.689922,32.711295
+     -101.690160,32.751607
+     -101.691094,32.886346
+     -101.691284,32.961838
+     -101.614658,32.961506
+     -101.557434,32.961025
+     -101.442419,32.961944
+     -101.419144,32.962146
+     -101.398589,32.962270
+     -101.328203,32.962666
+     -101.323259,32.962727
+     -101.262910,32.963214
+     -101.251235,32.963287
+     -101.246149,32.963323
+     -101.173378,32.963597
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>BORDEN, TX</name>
+   <description>Latitude:   32.778739
+Longitude: -101.458074</description>
+   <Point>
+      <coordinates>-101.458074, 32.778739, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

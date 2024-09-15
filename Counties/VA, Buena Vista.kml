@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>BUENA VISTA, VA</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-79.356808</longitude>
+  <latitude>37.738784</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 51/63 -->
+<Placemark>
+<name>BUENA VISTA, VA</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -79.339145,37.732952
+     -79.339844,37.731701
+     -79.333860,37.729959
+     -79.334324,37.728931
+     -79.334725,37.728045
+     -79.340830,37.729322
+     -79.341862,37.728342
+     -79.349113,37.720198
+     -79.349338,37.718788
+     -79.356036,37.709977
+     -79.348553,37.705539
+     -79.348882,37.705011
+     -79.355455,37.708472
+     -79.355559,37.706822
+     -79.360260,37.703464
+     -79.359867,37.702352
+     -79.370777,37.695776
+     -79.373299,37.696451
+     -79.378376,37.703295
+     -79.380223,37.705188
+     -79.381339,37.704577
+     -79.382690,37.706524
+     -79.381109,37.707114
+     -79.376238,37.710613
+     -79.375286,37.712215
+     -79.375657,37.715625
+     -79.377326,37.718327
+     -79.376200,37.721325
+     -79.369973,37.726502
+     -79.366844,37.726028
+     -79.366952,37.726633
+     -79.367034,37.727922
+     -79.369858,37.727875
+     -79.374177,37.727252
+     -79.377344,37.726762
+     -79.376737,37.733044
+     -79.376344,37.732936
+     -79.377137,37.734372
+     -79.374792,37.739307
+     -79.381283,37.740581
+     -79.381073,37.742416
+     -79.380359,37.743781
+     -79.372252,37.745586
+     -79.365117,37.744669
+     -79.364739,37.744590
+     -79.361504,37.751267
+     -79.354293,37.754029
+     -79.350180,37.754785
+     -79.349164,37.754971
+     -79.343240,37.761558
+     -79.333066,37.761214
+     -79.328746,37.760319
+     -79.329017,37.755812
+     -79.331645,37.743942
+     -79.332365,37.743255
+     -79.333961,37.743016
+     -79.333962,37.740557
+     -79.333282,37.737958
+     -79.336779,37.736638
+     -79.339145,37.732952
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>BUENA VISTA, VA</name>
+   <description>Latitude:   37.738784
+Longitude: -79.356808</description>
+   <Point>
+      <coordinates>-79.356808, 37.738784, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

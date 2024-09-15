@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>MASON, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-99.233410</longitude>
+  <latitude>30.733707</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/174 -->
+<Placemark>
+<name>MASON, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -99.484755,30.940605
+     -99.469757,30.940574
+     -99.349187,30.940945
+     -99.336693,30.940795
+     -99.282521,30.941028
+     -99.248195,30.941044
+     -99.187467,30.941066
+     -99.092317,30.941002
+     -99.092431,30.921968
+     -99.070608,30.921918
+     -99.008568,30.921682
+     -98.987001,30.921532
+     -98.978014,30.921449
+     -98.964612,30.921368
+     -98.964039,30.826670
+     -98.963936,30.808106
+     -98.963864,30.795351
+     -98.963813,30.738078
+     -98.964019,30.705030
+     -98.964030,30.704284
+     -98.964045,30.703242
+     -98.964464,30.628972
+     -98.964219,30.499158
+     -98.964230,30.498486
+     -99.011139,30.498133
+     -99.033510,30.498252
+     -99.042166,30.498298
+     -99.044130,30.498308
+     -99.078661,30.498493
+     -99.086986,30.498537
+     -99.090036,30.498554
+     -99.101549,30.498616
+     -99.167626,30.498790
+     -99.236693,30.498847
+     -99.253632,30.499310
+     -99.263162,30.499426
+     -99.268576,30.499492
+     -99.268761,30.499538
+     -99.282604,30.499673
+     -99.303996,30.499832
+     -99.308119,30.499793
+     -99.405204,30.499483
+     -99.405252,30.499517
+     -99.421510,30.499365
+     -99.421715,30.499405
+     -99.484493,30.499641
+     -99.484495,30.504925
+     -99.484528,30.516058
+     -99.484539,30.519829
+     -99.484416,30.549191
+     -99.484401,30.550104
+     -99.483998,30.643971
+     -99.483869,30.710771
+     -99.484141,30.780378
+     -99.484366,30.823445
+     -99.484375,30.825217
+     -99.484750,30.936568
+     -99.484755,30.940605
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>MASON, TX</name>
+   <description>Latitude:   30.733707
+Longitude: -99.233410</description>
+   <Point>
+      <coordinates>-99.233410, 30.733707, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

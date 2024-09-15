@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>HARTLEY, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-102.622496</longitude>
+  <latitude>35.725350</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/9 -->
+<Placemark>
+<name>HARTLEY, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.511313,36.055130
+     -102.507676,36.055133
+     -102.506781,36.055133
+     -102.496308,36.055271
+     -102.495707,36.055271
+     -102.477815,36.055291
+     -102.406481,36.055431
+     -102.405929,36.055407
+     -102.397483,36.055353
+     -102.319315,36.055452
+     -102.299960,36.055374
+     -102.292393,36.055430
+     -102.251038,36.055161
+     -102.247478,36.055238
+     -102.211678,36.055204
+     -102.202965,36.054975
+     -102.163015,36.055249
+     -102.162992,36.043563
+     -102.162956,36.026036
+     -102.162931,36.013915
+     -102.162926,36.011448
+     -102.162723,35.866412
+     -102.162888,35.808482
+     -102.162895,35.805938
+     -102.162931,35.793860
+     -102.162809,35.627515
+     -102.449476,35.625865
+     -102.613930,35.624655
+     -102.625483,35.624043
+     -102.748378,35.623972
+     -102.867923,35.623706
+     -102.875491,35.623055
+     -102.999725,35.622889
+     -103.036069,35.622502
+     -103.040525,35.622489
+     -103.041554,35.622487
+     -103.041485,35.651235
+     -103.041146,35.791583
+     -103.041917,35.796441
+     -103.041716,35.814072
+     -103.042186,35.825217
+     -103.041305,35.837694
+     -103.040824,36.055231
+     -102.920052,36.055180
+     -102.910429,36.055199
+     -102.842629,36.055153
+     -102.770991,36.055159
+     -102.731724,36.055288
+     -102.727568,36.055434
+     -102.718282,36.055172
+     -102.540212,36.055120
+     -102.539492,36.055120
+     -102.531375,36.055123
+     -102.526840,36.055123
+     -102.521730,36.055124
+     -102.513668,36.055128
+     -102.511776,36.055130
+     -102.511313,36.055130
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>HARTLEY, TX</name>
+   <description>Latitude:   35.725350
+Longitude: -102.622496</description>
+   <Point>
+      <coordinates>-102.622496, 35.725350, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

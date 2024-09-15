@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>HALE, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.828875</longitude>
+  <latitude>34.072852</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/32 -->
+<Placemark>
+<name>HALE, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.090415,34.313132
+     -101.999753,34.313041
+     -101.998020,34.313039
+     -101.847114,34.313073
+     -101.794620,34.313007
+     -101.762485,34.312970
+     -101.732672,34.312853
+     -101.731319,34.312853
+     -101.680279,34.312812
+     -101.675384,34.312808
+     -101.645304,34.312786
+     -101.564856,34.312493
+     -101.565096,34.198575
+     -101.565005,34.184359
+     -101.564684,34.088672
+     -101.564562,34.074132
+     -101.564534,34.059635
+     -101.564463,34.021115
+     -101.564143,33.968277
+     -101.563580,33.830451
+     -101.570216,33.830391
+     -101.578760,33.830312
+     -101.677240,33.829391
+     -101.700569,33.829089
+     -101.735051,33.828643
+     -101.749983,33.828466
+     -101.757137,33.828374
+     -101.767968,33.828232
+     -101.770154,33.828204
+     -101.819259,33.827565
+     -101.836639,33.827339
+     -101.840895,33.827286
+     -101.850254,33.827169
+     -101.851420,33.827154
+     -101.852655,33.827138
+     -101.854115,33.827120
+     -101.871412,33.826897
+     -101.873604,33.826959
+     -101.902589,33.826682
+     -101.906149,33.826642
+     -101.958369,33.826130
+     -101.974715,33.825944
+     -101.992850,33.825655
+     -102.001501,33.825574
+     -102.085700,33.824675
+     -102.086380,33.880623
+     -102.086437,33.886381
+     -102.087627,34.026641
+     -102.087792,34.041174
+     -102.088286,34.084691
+     -102.089010,34.159213
+     -102.089533,34.217126
+     -102.089797,34.246288
+     -102.090415,34.313132
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>HALE, TX</name>
+   <description>Latitude:   34.072852
+Longitude: -101.828875</description>
+   <Point>
+      <coordinates>-101.828875, 34.072852, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

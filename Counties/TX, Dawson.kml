@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>DAWSON, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.949029</longitude>
+  <latitude>32.741896</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/85 -->
+<Placemark>
+<name>DAWSON, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.691284,32.961838
+     -101.691094,32.886346
+     -101.690160,32.751607
+     -101.689922,32.711295
+     -101.689256,32.620228
+     -101.688740,32.525222
+     -101.711646,32.525320
+     -101.721478,32.525179
+     -101.787955,32.524932
+     -101.893991,32.524322
+     -101.982159,32.523959
+     -102.202703,32.523271
+     -102.203200,32.563681
+     -102.203297,32.572038
+     -102.203566,32.595139
+     -102.204078,32.636081
+     -102.204193,32.644402
+     -102.204998,32.702425
+     -102.205374,32.729389
+     -102.205583,32.744370
+     -102.205870,32.815907
+     -102.205902,32.818753
+     -102.208369,32.943537
+     -102.208373,32.944070
+     -102.208520,32.958956
+     -102.198901,32.959001
+     -102.076214,32.959702
+     -102.015806,32.960206
+     -102.001726,32.960319
+     -101.998397,32.960335
+     -101.993774,32.960352
+     -101.981113,32.960398
+     -101.965520,32.960456
+     -101.963964,32.960462
+     -101.876886,32.960789
+     -101.871857,32.960863
+     -101.859302,32.960985
+     -101.850435,32.961034
+     -101.845843,32.961059
+     -101.840694,32.961087
+     -101.823068,32.961188
+     -101.806848,32.961312
+     -101.754781,32.961304
+     -101.718749,32.962060
+     -101.691284,32.961838
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>DAWSON, TX</name>
+   <description>Latitude:   32.741896
+Longitude: -101.949029</description>
+   <Point>
+      <coordinates>-101.949029, 32.741896, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

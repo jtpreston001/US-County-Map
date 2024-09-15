@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>SWISHER, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-101.746630</longitude>
+  <latitude>34.533522</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/23 -->
+<Placemark>
+<name>SWISHER, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -101.998493,34.748190
+     -101.920770,34.748238
+     -101.866398,34.748171
+     -101.853700,34.748125
+     -101.847924,34.748132
+     -101.776199,34.747956
+     -101.758560,34.747915
+     -101.740897,34.747529
+     -101.629257,34.747649
+     -101.599373,34.747522
+     -101.471562,34.747462
+     -101.471448,34.651790
+     -101.471407,34.636471
+     -101.471863,34.548075
+     -101.471916,34.540023
+     -101.471916,34.539794
+     -101.471738,34.534620
+     -101.472009,34.463163
+     -101.472050,34.439125
+     -101.471580,34.312290
+     -101.564856,34.312493
+     -101.645304,34.312786
+     -101.675384,34.312808
+     -101.680279,34.312812
+     -101.731319,34.312853
+     -101.732672,34.312853
+     -101.762485,34.312970
+     -101.794620,34.313007
+     -101.847114,34.313073
+     -101.998020,34.313039
+     -101.998033,34.321731
+     -101.998142,34.419400
+     -101.998160,34.427251
+     -101.998210,34.437565
+     -101.998223,34.449330
+     -101.998251,34.482947
+     -101.998354,34.529787
+     -101.998393,34.617793
+     -101.998398,34.632297
+     -101.998401,34.647000
+     -101.998493,34.748190
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>SWISHER, TX</name>
+   <description>Latitude:   34.533522
+Longitude: -101.746630</description>
+   <Point>
+      <coordinates>-101.746630, 34.533522, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

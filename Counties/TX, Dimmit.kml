@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>DIMMIT, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-99.764153</longitude>
+  <latitude>28.434880</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/238 -->
+<Placemark>
+<name>DIMMIT, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -100.114336,28.648122
+     -99.999612,28.647455
+     -99.935943,28.646459
+     -99.913051,28.646756
+     -99.890039,28.644919
+     -99.890076,28.644800
+     -99.883024,28.644318
+     -99.883021,28.644291
+     -99.875286,28.643934
+     -99.844934,28.643959
+     -99.816600,28.643938
+     -99.813991,28.643892
+     -99.797911,28.643861
+     -99.780713,28.643828
+     -99.766930,28.643814
+     -99.702539,28.643538
+     -99.655187,28.643548
+     -99.636952,28.643120
+     -99.569527,28.642504
+     -99.526761,28.642573
+     -99.513358,28.641764
+     -99.513315,28.641725
+     -99.503179,28.641309
+     -99.492967,28.641402
+     -99.409021,28.640566
+     -99.395736,28.640784
+     -99.395707,28.625258
+     -99.396296,28.551503
+     -99.395945,28.500263
+     -99.396674,28.500263
+     -99.395923,28.426103
+     -99.395275,28.364034
+     -99.395228,28.364052
+     -99.394630,28.349818
+     -99.394414,28.349792
+     -99.394675,28.329866
+     -99.395668,28.252096
+     -99.394177,28.204627
+     -99.650530,28.201810
+     -99.650711,28.201794
+     -99.991610,28.198820
+     -100.113719,28.197819
+     -100.113938,28.341956
+     -100.113861,28.344294
+     -100.113992,28.345899
+     -100.113992,28.346220
+     -100.114042,28.349519
+     -100.113853,28.379454
+     -100.114020,28.489864
+     -100.114035,28.500262
+     -100.114269,28.629686
+     -100.114336,28.648122
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>DIMMIT, TX</name>
+   <description>Latitude:   28.434880
+Longitude: -99.764153</description>
+   <Point>
+      <coordinates>-99.764153, 28.434880, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

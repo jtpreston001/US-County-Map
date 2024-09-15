@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>HARDEE, FL</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-81.810589</longitude>
+  <latitude>27.500117</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 12/57 -->
+<Placemark>
+<name>HARDEE, FL</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -81.874805,27.646232
+     -81.861757,27.646295
+     -81.834317,27.646199
+     -81.822749,27.646151
+     -81.819116,27.646151
+     -81.741176,27.646242
+     -81.662531,27.646433
+     -81.653648,27.646455
+     -81.621527,27.646275
+     -81.616968,27.646246
+     -81.563318,27.646614
+     -81.563463,27.613583
+     -81.563475,27.591520
+     -81.563559,27.566220
+     -81.563584,27.562872
+     -81.563610,27.559181
+     -81.563603,27.554783
+     -81.563560,27.493975
+     -81.563527,27.487784
+     -81.563562,27.485478
+     -81.563533,27.481858
+     -81.563515,27.479685
+     -81.563594,27.448960
+     -81.563917,27.434025
+     -81.563711,27.430516
+     -81.563789,27.414818
+     -81.563635,27.373510
+     -81.563736,27.340720
+     -81.579092,27.340679
+     -81.586486,27.340664
+     -81.624800,27.340546
+     -81.661522,27.340374
+     -81.666013,27.340368
+     -81.724277,27.340233
+     -81.806077,27.340127
+     -81.829919,27.340122
+     -81.841062,27.340120
+     -81.845145,27.340142
+     -81.858829,27.340262
+     -81.858829,27.337731
+     -81.858943,27.336709
+     -81.875136,27.336877
+     -81.894147,27.337045
+     -81.960363,27.337346
+     -81.999808,27.337792
+     -82.026981,27.337940
+     -82.055753,27.338264
+     -82.055674,27.373328
+     -82.055638,27.392577
+     -82.055479,27.427955
+     -82.055493,27.429240
+     -82.055423,27.462558
+     -82.055395,27.473188
+     -82.055343,27.483024
+     -82.055321,27.485243
+     -82.055194,27.495009
+     -82.054467,27.595181
+     -82.054349,27.646382
+     -81.987769,27.646521
+     -81.891664,27.646205
+     -81.883947,27.646278
+     -81.878963,27.646197
+     -81.878676,27.646198
+     -81.874805,27.646232
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>HARDEE, FL</name>
+   <description>Latitude:   27.500117
+Longitude: -81.810589</description>
+   <Point>
+      <coordinates>-81.810589, 27.500117, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

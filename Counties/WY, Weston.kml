@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>WESTON, WY</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-104.527920</longitude>
+  <latitude>43.892410</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 56/8 -->
+<Placemark>
+<name>WESTON, WY</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -104.395157,44.181390
+     -104.375502,44.181622
+     -104.368230,44.180913
+     -104.323327,44.180884
+     -104.312332,44.180848
+     -104.203367,44.180689
+     -104.054487,44.180381
+     -104.054950,43.938090
+     -104.055077,43.936535
+     -104.055488,43.853477
+     -104.055138,43.750421
+     -104.055133,43.747105
+     -104.054902,43.583852
+     -104.054885,43.583512
+     -104.054840,43.579368
+     -104.055032,43.558603
+     -104.054786,43.503072
+     -104.200606,43.502743
+     -104.362705,43.502056
+     -104.366822,43.502169
+     -104.417301,43.502179
+     -104.419114,43.502181
+     -104.494750,43.502007
+     -104.502090,43.502004
+     -104.510133,43.501939
+     -104.513809,43.501781
+     -104.529476,43.501747
+     -104.602941,43.501968
+     -104.628195,43.501975
+     -104.733763,43.501735
+     -104.750519,43.501134
+     -104.849876,43.500136
+     -104.863458,43.499971
+     -104.899941,43.499640
+     -105.011198,43.498965
+     -105.017231,43.498918
+     -105.027401,43.498847
+     -105.030197,43.498893
+     -105.079797,43.498445
+     -105.080559,43.502400
+     -105.081662,43.565500
+     -105.080801,43.719558
+     -105.080695,43.738811
+     -105.080688,43.739945
+     -105.079133,43.813023
+     -105.078784,43.827021
+     -105.081407,43.826928
+     -105.080782,43.965638
+     -105.080178,44.016253
+     -105.080649,44.086479
+     -105.079281,44.176182
+     -105.078191,44.176131
+     -105.072853,44.176497
+     -105.012236,44.176830
+     -104.994584,44.177372
+     -104.739212,44.179300
+     -104.722878,44.179283
+     -104.625515,44.180157
+     -104.577833,44.180133
+     -104.461202,44.180747
+     -104.395157,44.181390
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>WESTON, WY</name>
+   <description>Latitude:   43.892410
+Longitude: -104.527920</description>
+   <Point>
+      <coordinates>-104.527920, 43.892410, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

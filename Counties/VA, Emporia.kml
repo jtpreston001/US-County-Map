@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>EMPORIA, VA</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-77.535499</longitude>
+  <latitude>36.690663</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 51/137 -->
+<Placemark>
+<name>EMPORIA, VA</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -77.532130,36.712617
+     -77.526983,36.712525
+     -77.526448,36.713506
+     -77.521834,36.712827
+     -77.516277,36.720481
+     -77.514450,36.720588
+     -77.512092,36.719489
+     -77.509336,36.717291
+     -77.509365,36.716398
+     -77.513769,36.710271
+     -77.513198,36.710211
+     -77.512792,36.710169
+     -77.517513,36.699561
+     -77.512176,36.701571
+     -77.508631,36.702159
+     -77.509128,36.690628
+     -77.506716,36.690125
+     -77.508201,36.685948
+     -77.509250,36.682997
+     -77.520063,36.685462
+     -77.523167,36.678804
+     -77.524985,36.679789
+     -77.524872,36.677638
+     -77.525726,36.672832
+     -77.529419,36.673451
+     -77.529561,36.674344
+     -77.532202,36.675351
+     -77.535412,36.675810
+     -77.540412,36.675398
+     -77.543155,36.673409
+     -77.544532,36.671669
+     -77.548197,36.671898
+     -77.550903,36.672647
+     -77.556627,36.674874
+     -77.557850,36.685957
+     -77.557742,36.686613
+     -77.557690,36.687058
+     -77.559301,36.693693
+     -77.560539,36.693722
+     -77.561076,36.697023
+     -77.561351,36.698810
+     -77.562858,36.701922
+     -77.563760,36.703029
+     -77.562833,36.703356
+     -77.562416,36.706512
+     -77.562792,36.706720
+     -77.562143,36.707479
+     -77.560215,36.706773
+     -77.559817,36.707368
+     -77.558499,36.708722
+     -77.557810,36.712064
+     -77.553537,36.713244
+     -77.553503,36.712894
+     -77.544567,36.710937
+     -77.543673,36.711922
+     -77.540175,36.715199
+     -77.532635,36.714080
+     -77.532615,36.712742
+     -77.532130,36.712617
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>EMPORIA, VA</name>
+   <description>Latitude:   36.690663
+Longitude: -77.535499</description>
+   <Point>
+      <coordinates>-77.535499, 36.690663, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>

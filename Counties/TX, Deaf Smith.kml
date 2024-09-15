@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" >
+<Document>
+
+<name>DEAF SMITH, TX</name>
+<open>1</open>
+
+<!-- This defines our vantage point, looking down on the boundary -->
+<LookAt>
+  <longitude>-102.609693</longitude>
+  <latitude>34.941702</latitude>
+  <tilt>0</tilt>
+  <range>30000</range>  <!-- meters -->
+</LookAt>
+
+<Style id="boundaryHue">
+   <LineStyle>
+<!-- altcolor DEFF11  opacity - CC  fill - 0-->
+   <color>CCDEFF11</color>
+       <!--  RGB color 11DFFF becomes 77FFDF11                                    -->
+       <!--  where the two leftmost digits represent opacity (alpha) values, and  -->
+       <!--  where the last six hexadecimal characters represent color as B G R   -->
+   <width>4</width>  <!--  in pixels  --> 
+   </LineStyle>
+</Style>
+
+<!-- from boundary file 48/16 -->
+<Placemark>
+<name>DEAF SMITH, TX</name>
+  <styleUrl>#boundaryHue</styleUrl>
+  <LineString>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+     -102.578750,35.186730
+     -102.558979,35.186651
+     -102.543070,35.186588
+     -102.403817,35.185520
+     -102.382179,35.185382
+     -102.329191,35.184988
+     -102.293880,35.184800
+     -102.272169,35.183794
+     -102.250478,35.183758
+     -102.242773,35.183031
+     -102.167471,35.183233
+     -102.167662,35.159739
+     -102.167554,35.102371
+     -102.167567,35.094632
+     -102.167583,35.087789
+     -102.167719,35.030499
+     -102.167462,34.985971
+     -102.167497,34.956533
+     -102.167602,34.875059
+     -102.168437,34.853304
+     -102.168519,34.826772
+     -102.168674,34.790345
+     -102.168839,34.747417
+     -102.173706,34.747391
+     -102.191526,34.747292
+     -102.317523,34.746384
+     -102.364422,34.746068
+     -102.493300,34.746775
+     -102.525184,34.746931
+     -102.583328,34.747188
+     -102.600734,34.747147
+     -102.760844,34.747521
+     -102.848798,34.747500
+     -102.864278,34.747535
+     -102.997996,34.747663
+     -103.000500,34.747393
+     -103.024298,34.747380
+     -103.042769,34.747361
+     -103.042770,34.792224
+     -103.042781,34.850243
+     -103.042521,34.899546
+     -103.042597,35.032467
+     -103.042642,35.109913
+     -103.043261,35.125058
+     -103.042520,35.135596
+     -103.042600,35.142766
+     -103.042711,35.144735
+     -103.042568,35.159318
+     -103.042395,35.178573
+     -103.042339,35.181922
+     -103.042366,35.182786
+     -103.042377,35.183149
+     -103.008309,35.183117
+     -103.008200,35.183128
+     -102.979737,35.183688
+     -102.837784,35.183794
+     -102.744643,35.184853
+     -102.625488,35.187249
+     -102.594335,35.186792
+     -102.578750,35.186730
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+   <name>DEAF SMITH, TX</name>
+   <description>Latitude:   34.941702
+Longitude: -102.609693</description>
+   <Point>
+      <coordinates>-102.609693, 34.941702, 0</coordinates>
+   </Point>
+</Placemark>
+
+<!-- Close document -->
+</Document>
+</kml>
